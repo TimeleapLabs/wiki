@@ -9,7 +9,7 @@ Kenshi logo:
 
 
 About
-=====
+-----
 
 We have purchased usage rights for all works listed above.
 However, we are not able to trademark and we claim no other rights over
