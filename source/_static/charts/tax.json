@@ -1,0 +1,106 @@
+{
+  "series": [
+    {
+      "name": "Fine",
+      "data": [
+        49,
+        39,
+        33,
+        29,
+        26,
+        23,
+        21,
+        19,
+        17,
+        16,
+        14,
+        13,
+        12,
+        11,
+        10,
+        9,
+        8,
+        7,
+        7,
+        6,
+        5,
+        4,
+        4,
+        3,
+        3,
+        2,
+        2,
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "chart": {
+    "type": "area",
+    "toolbar": {
+      "show": false
+    }
+  },
+  "stroke": {
+    "curve": "smooth"
+  },
+  "title": {
+    "text": "Amount of fine based on days passed",
+    "align": "left"
+  },
+  "dataLabels": {
+    "enabled": false
+  },
+  "xaxis": {
+    "categories": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29"
+    ],
+    "title": {
+      "text": "Days Passed"
+    }
+  },
+  "yaxis": {
+    "title": {
+      "text": "Fine"
+    },
+    "min": 0,
+    "max": 49
+  },
+  "legend": {
+    "position": "top",
+    "horizontalAlign": "right",
+    "floating": true,
+    "offsetY": -30,
+    "offsetX": -5
+  }
+}

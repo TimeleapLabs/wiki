@@ -1,0 +1,334 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+
+iframe {
+  border-radius: 5px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  animation: fade-in linear 0.2s;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%);
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tabbed-content {
+  box-shadow: none;
+}
+
+.tabbed-label {
+  display: inline-flex !important;
+  align-items: center !important;
+  gap: 0.5em !important;
+  justify-content: flex-start !important;
+  padding: 0.65em 0.2em !important;
+  margin-right: 1em !important;
+}
+
+.tabbed-label > svg + span {
+  margin-top: -4px;
+}
+
+video {
+  margin-bottom: 1em !important;
+  box-shadow: 0px 0px 20px 0px rgb(0 0 0 / 40%);
+  border-radius: 5px;
+}
+
+img.logo {
+  border-radius: 10px !important;
+}
+
+.github-button svg {
+  height: 1em;
+}
+
+.github-button {
+  display: flex;
+  gap: 0.5em;
+  padding: 0.5em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 1em;
+  color: var(--color-toc-item-text);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.github-button-wrap {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5em;
+  margin-top: 2em;
+}
+
+body[data-theme="dark"] .github-button {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) .github-button {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.no-toc:not(.toc-overlay-icon) {
+  display: initial;
+}
+
+.version-select-wrap {
+  display: flex;
+  align-items: center;
+  padding-left: 1.5em;
+  margin-top: 1em;
+}
+
+.version-select {
+  padding: 0.5em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.05);
+  font-size: 1em;
+  color: var(--color-toc-item-text);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+}
+
+body[data-theme="dark"] .version-select {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) .version-select {
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.medium-zoom-overlay {
+  z-index: 99999;
+}
+
+.medium-zoom-image--opened {
+  z-index: 999999;
+}
+
+.inline-icon {
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  transform: translateY(2px);
+  margin-right: 0.25em;
+}
+
+.footnote dd {
+  margin-inline-start: 0.5em;
+}
+
+.footnote p,
+dt {
+  margin: 0;
+  margin-top: 0 !important;
+}
+
+.highlight .go {
+  background: transparent !important;
+}
+
+.mermaid svg {
+  max-width: 650px;
+  padding: 1em;
+  background: #1f2020;
+  border-radius: 7px;
+}
+
+.toctree-wrapper .caption {
+  margin-bottom: 0.5em !important;
+}
+
+#milestone ul {
+  list-style-type: none;
+}
+
+#milestone ul:not(ul ul) {
+  padding: 0;
+}
+
+/* Dark theme for Apex */
+
+[data-theme=dark] .apexcharts-tooltip.apexcharts-theme-light {
+  color: #fff;
+  background: rgba(30, 30, 30, 0.8);
+}
+
+[data-theme=dark] .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  background: rgba(0, 0, 0, 0.7);
+  border-bottom: 1px solid #333;
+}
+
+[data-theme=dark] .apexcharts-xaxistooltip.apexcharts-theme-light {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+[data-theme=dark] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
+  border-bottom-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-yaxistooltip.apexcharts-theme-light {
+  background: rgba(0, 0, 0, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+[data-theme=dark] .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
+  border-left-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
+  border-right-color: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme=dark] .apexcharts-theme-light .apexcharts-zoom-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-reset-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-pan-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-selection-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-menu-icon svg,
+[data-theme=dark] .apexcharts-theme-light .apexcharts-toolbar-custom-icon svg {
+  fill: #f3f4f5;
+}
+
+[data-theme=dark] .apexcharts-theme-light .apexcharts-menu {
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+
+[data-theme=dark] .apexcharts-text:not(.apexcharts-pie .apexcharts-datalabels .apexcharts-text), 
+[data-theme=dark] .apexcharts-title-text {
+  fill: rgb(155, 161, 163);
+}
+
+[data-theme=dark] .apexcharts-gridline {
+  stroke: rgb(55, 61, 63);
+}
+
+[data-theme=dark] .apexcharts-legend-text {
+  color: rgb(155, 161, 163) !important;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  [data-theme=auto] .apexcharts-tooltip.apexcharts-theme-light {
+    color: #fff;
+    background: rgba(30, 30, 30, 0.8);
+  }
+
+  [data-theme=auto] .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+    background: rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid #333;
+  }
+
+  [data-theme=auto] .apexcharts-xaxistooltip.apexcharts-theme-light {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  [data-theme=auto] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
+    border-bottom-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
+    border-top-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-yaxistooltip.apexcharts-theme-light {
+    background: rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: #fff;
+  }
+
+  [data-theme=auto] .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
+    border-left-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
+    border-left-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
+    border-right-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
+    border-right-color: rgba(0, 0, 0, 0.5);
+  }
+
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoom-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-reset-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-pan-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-selection-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-menu-icon svg,
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-toolbar-custom-icon svg {
+    fill: #f3f4f5;
+  }
+
+  [data-theme=auto] .apexcharts-theme-light .apexcharts-menu {
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+  }
+
+  [data-theme=auto] .apexcharts-text:not(.apexcharts-pie .apexcharts-datalabels .apexcharts-text), 
+  [data-theme=auto] .apexcharts-title-text {
+    fill: rgb(155, 161, 163);
+  }
+
+  [data-theme=auto] .apexcharts-gridline {
+    stroke: rgb(55, 61, 63);
+  }
+
+  [data-theme=auto] .apexcharts-legend-text {
+    color: rgb(155, 161, 163)  !important;
+  }
+
+}
