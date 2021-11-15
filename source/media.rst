@@ -12,8 +12,8 @@ About
 -----
 
 We have purchased usage rights for all works listed above.
-However, we are not able to trademark and we claim no other rights over
-them other than the rights of usage for Kenshi project.
+However, we are not able to trademark them. We claim no other rights over
+these files other than the rights of usage for Kenshi project.
 
 Feel free to use the works as a symbol representing Kenshi, to promote Kenshi
 in your videos, blog posts or memes.
