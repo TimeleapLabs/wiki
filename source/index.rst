@@ -14,9 +14,9 @@ Kenshi shares the profits of its projects with the holders.
    tokenomics
    features/index
    milestone
-   tech
-   guides/index
-   media
-   community
    faq
    disclaimer
+   media
+   community
+   guides/index
+   tech
