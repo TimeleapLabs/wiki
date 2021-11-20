@@ -1,4 +1,4 @@
-How to buy
+How To Buy
 ==========
 
 Kenshi will be listed on PancakeSwap.

@@ -15,7 +15,7 @@ Kenshi shares the profits of its projects with the holders.
    features/index
    milestone
    tech
-   help/index
+   guides/index
    media
    community
    faq

@@ -1,4 +1,5 @@
 sphinx_panels
 sphinxext-opengraph
 sphinxcontrib-mermaid
+sphinxcontrib-katex
 furo

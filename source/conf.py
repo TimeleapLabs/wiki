@@ -35,6 +35,7 @@ extensions = [
     "sphinx_panels",
     "sphinxext.opengraph",
     "sphinxcontrib.mermaid",
+    "sphinxcontrib.katex"
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -88,7 +89,7 @@ html_js_files = [
 ]
 
 
-html_favicon = '_static/images/favicon.svg'
+html_favicon = '_static/images/favicon.png'
 html_logo = '_static/images/logo-512x512.png'
 html_title = 'Kenshi Wiki'
 
@@ -99,3 +100,4 @@ ogp_site_url = f"https://docs.kenshi.io"
 ogp_type = "article"
 
 mermaid_init_js = "mermaid.initialize({startOnLoad:true,theme:'dark',sequence:{showSequenceNumbers:true}});"
+katex_prerender = True
