@@ -20,3 +20,10 @@ These are the official Kenshi community links:
 .. _Reddit: https://www.reddit.com/r/kenshi_token
 .. _Medium: https://blog.kenshi.io
 .. _GitHub: https://github.com/kenshi-token
+
+Contact Details
+---------------
+
+For business enquiries, send us a message at `hi@kenshi.io`_.
+
+.. _`hi@kenshi.io`: mailto://hi@kenshi.io
