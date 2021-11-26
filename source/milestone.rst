@@ -4,17 +4,15 @@ Milestone
 - |checked| Website
 - |checked| Wiki
 - |unchecked| CoinMarketCap
-- |halfchecked| Social Media
+- |checked| Social Media
 
   - |checked| Telegram
-  - |unchecked| Reddit
-  - |unchecked| Twitter
-  - |unchecked| Instagram
-  - |unchecked| Medium
-  - |unchecked| GitHub
+  - |checked| Reddit
+  - |checked| Twitter
+  - |checked| Medium
+  - |checked| GitHub
 
 - |unchecked| 2000 holders
-- |unchecked| Audit
 - |halfchecked| Get the company registered
 
 .. |checked| raw:: html
