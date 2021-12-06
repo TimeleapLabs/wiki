@@ -21,8 +21,8 @@ This is called a pump and dump scheme.
 
 The variable tax system helps prevent these scenarios of market manipulation
 from happening, ensuring the savings of the holders stay safe. In addition to that,
-it protects our liquidity pool from flash loan attacks and other similar malicious
-activities.
+it protects our liquidity pool and holders from flash loan attacks, sandwich attacks,
+and other similar malicious activities.
 
 How much is the fine?
 ---------------------

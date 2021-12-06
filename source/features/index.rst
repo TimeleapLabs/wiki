@@ -11,3 +11,4 @@ This section provides a summary of the Kenshi token features.
    burns
    variable-tax
    max-balance
+   liquidity-bootstrapping

@@ -5,7 +5,7 @@ Kenshi is an investment token with reflections and per transaction burns.
 Kenshi shares the profits of its projects with the holders.
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :caption: Table of Contents
    
    self
@@ -13,6 +13,7 @@ Kenshi shares the profits of its projects with the holders.
    investment/index
    tokenomics
    features/index
+   services/index
    milestone
    faq
    disclaimer
