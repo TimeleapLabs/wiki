@@ -5,6 +5,11 @@ The Kenshi locker can be used to lock any BEP-20 tokens for a set period of time
 For example, you can use it to lock your liquidity tokens or use it to lock up
 your team allocations for as long as your project requires.
 
+.. warning::
+
+  When sending tokens to the contract address, make sure you're on the correct
+  network. Otherwise your tokens will be lost forever.
+
 How to create a locker?
 -----------------------
 
