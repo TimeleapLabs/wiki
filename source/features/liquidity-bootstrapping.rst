@@ -21,8 +21,8 @@ have this feature on our own DEX once we launch the Kenshi DEX project.
 How does it work?
 -----------------
 
-At IDO, we pair 10% of our tokens with a specific amount of BNBs. This
-defines the inital price of the token. The 90% of the remaining tokens are
+At IDO, we pair 20% of our tokens with a specific amount of BNBs. This
+defines the inital price of the token. The 80% remaining tokens are
 locked in the smart contract.
 
 Every time a trade happens and removes some tokens from the liquidity pool,

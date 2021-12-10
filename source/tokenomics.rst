@@ -4,7 +4,9 @@ Tokenomics
 Token distribution
 ------------------
 
-All tokens are allocated for a fair-launch IDO (Initial DEX Offering).
+20% of the tokens are added to the initial liquidity pool. The remaining 80% are
+added little by little to the DEX on each purchase from the DEX, check out the
+`Liquidity Bootstrapping`_ page fo more info about that.
 There are no team or developer wallets or any other form of special allocation.
 
 Total Supply
@@ -28,3 +30,5 @@ Treasury
 
 Tokens held in treasury will be invested on Kenshi projects, returning part of
 their profits to the holders.
+
+.. _`Liquidity Bootstrapping`: features/liquidity-bootstrapping.html
