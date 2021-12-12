@@ -19,7 +19,7 @@ jobs:
       - name: Install Python dependencies
         run: pip install -r requirements.txt
       - name: Install Node.js dependencies
-        run: npm i -g node-katex
+        run: npm i -g katex
       - name: Build Sphinx Project
         run: make clean html
       - name: Deploy to Vercel
