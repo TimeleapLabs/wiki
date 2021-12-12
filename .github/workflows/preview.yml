@@ -31,10 +31,3 @@ jobs:
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
           scope: ${{ secrets.ORG_ID}}
-      - name: Comment on PR
-        uses: unsplash/comment-on-pr@v1.3.0
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          msg: Preview URL ${{ steps.vercel-deploy.outputs.preview-url }}
-          delete_prev_regex_msg: "^Preview URL .*"
