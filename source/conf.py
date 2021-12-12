@@ -29,7 +29,6 @@ copyright = "Kenshi"
 # extensions coming with Sphinx (named "sphinx.ext.*") or your custom
 # ones.
 extensions = [
-    "sphinx_rtd_theme",
     "video",
     "apex_chart",
     "sphinx_panels",
