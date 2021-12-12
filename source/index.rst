@@ -21,4 +21,4 @@ Kenshi shares the profits of its projects with the holders.
    community
    guides/index
    tech
-   dev
+   dev/index
