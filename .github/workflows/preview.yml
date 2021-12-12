@@ -30,6 +30,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           vercel-org-id: ${{ secrets.ORG_ID}}
           vercel-project-id: ${{ secrets.PROJECT_ID}}
+          scope: ${{ secrets.ORG_ID}}
       - name: Comment on PR
         uses: unsplash/comment-on-pr@v1.3.0
         env:
