@@ -14,7 +14,7 @@ This allows us to have a higher price for the token at the start, and
 have a bigger liquidity in the pool over time, which in turn helps us
 stabilize and control the price.
 
-This feature is implented off-chain because we couldn't fine any currently
+This feature is implented off-chain because we couldn't find any currently
 existing DEX on the Binance Smart Chain offering a similar service. We will
 have this feature on our own DEX once we launch the Kenshi DEX project.
 
@@ -29,7 +29,7 @@ Every time a trade happens and removes some tokens from the liquidity pool,
 an oracle reacts to the event by injecting the same amount of tokens back to
 the pool to keep the amount of Kenshi tokens in the pool a constant.
 
-This process continues until all the 90% of the remaining tokens are injected
+This process continues until all the 80% of the remaining tokens are injected
 into the pool. The price impact of this process is rather small, and guarantees
 an overall positive trend for the price.
 
