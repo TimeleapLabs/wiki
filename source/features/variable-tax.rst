@@ -9,6 +9,12 @@ we move further away from the date of purchase.
 
 .. _`5% base tax`: ../tokenomics.html#tax
 
+.. warning::
+
+  This is a token to hold. Due to the initial sell tax you won't be able to
+  sell your tokens for at least three or four days. Please make sure you understand
+  how this tax works before you make your purchase.
+
 Why is this good?
 -----------------
 
