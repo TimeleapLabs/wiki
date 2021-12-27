@@ -5,10 +5,50 @@ The Kenshi locker can be used to lock any BEP-20 tokens for a set period of time
 For example, you can use it to lock your liquidity tokens or use it to lock up
 your team allocations for as long as your project requires.
 
-.. warning::
+Features
+--------
 
-  When sending tokens to the contract address, make sure you're on the correct
-  network. Otherwise your tokens will be lost forever.
+Kenshi lockers have a set of features that makes them stand out in the competition:
+
+- **One time flat fee**: pay one time and use forever, do whatever.
+- **Upgradable**: upgrade your locker to a new version for free any time we add new features.
+- **Lock any token**: lock any token on the Binance Smart Chain.
+- **Lock multiple tokens**: lock multiple tokens or lp tokens in the same locker.
+- **Transfer ownership**: transfer ownership to a new wallet if needed.
+
+Pricing
+-------
+
+Kenshi lockers have a one time flat fee and all future interactions with them
+are free. Locker costs are payable either in BNB or in Kenshi. Please note that
+paying in Kenshi gives you a ~50% discount compared to the BNB price, and you
+won't pay the Kenshi sales tax.
+
+.. list-table:: Pricing
+   :widths: 60 20 20
+   :header-rows: 1
+
+   * - Locker Action
+     - Price (BNB)
+     - Price (Kenshi)
+   * - Create a new locker
+     - 0.2
+     - 1,000,000,000
+   * - Lock liquidity or other tokens
+     - *Free*
+     - *Free*
+   * - Increase locked liquidity or other tokens
+     - *Free*
+     - *Free*
+   * - Increase lock time
+     - *Free*
+     - *Free*
+   * - Transfer ownership
+     - *Free*
+     - *Free*
+   * - Upgrade to a new locker version
+     - *Free*
+     - *Free*
 
 How to create a locker?
 -----------------------
@@ -24,6 +64,11 @@ How to add tokens to the locker?
 You can either use the admin page of the locker for sending tokens into the locker,
 or you can simply send tokens to the locker contract address from the wallet of
 your choice.
+
+.. danger::
+
+  When sending tokens to the contract address, make sure you're on the correct
+  network. Otherwise your tokens will be lost forever.
 
 How to withdraw tokens from the locker?
 ---------------------------------------
