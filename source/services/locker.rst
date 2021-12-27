@@ -58,6 +58,8 @@ and click on the create button. Once the locker creation is done you will be
 redirected to the admin page. Be sure to copy the contract address of your newly
 created locker so you can manage it later.
 
+.. _`/locker`: https://kenshi.io/locker
+
 How to add tokens to the locker?
 --------------------------------
 
@@ -96,4 +98,10 @@ publicly available on the locker.
   and displayed to the locker owner. Locker onwer is anyone who created the locker.
   Please not that the ownership of the locker is not transferrable.
 
-.. _`/locker`: https://kenshi.io/locker
+
+Programmatic access
+-------------------
+
+Check our `GitHub repository`_ for the relevant interfaces and documentation.
+
+.. _`GitHub repository`: https://github.com/kenshi-token/locker-interface
