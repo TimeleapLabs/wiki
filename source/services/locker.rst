@@ -20,9 +20,10 @@ Pricing
 -------
 
 Kenshi lockers have a one time flat fee and all future interactions with them
-are free. Locker costs are payable either in BNB or in Kenshi. Please note that
-paying in Kenshi gives you a ~50% discount compared to the BNB price, and you
-won't pay the Kenshi sales tax.
+are free. You can either pay in BNB, or lock a specific amount of Kenshi tokens
+for at least a year and get the locker for free. Please note that you won't pay
+any Kenshi transaction tax if you choose to pay by locking Kenshi, and you will
+receive reflections on top of that.
 
 .. list-table:: Pricing
    :widths: 60 20 20
@@ -33,7 +34,7 @@ won't pay the Kenshi sales tax.
      - Price (Kenshi)
    * - Create a new locker
      - 0.2
-     - 1,000,000,000
+     - Lock 1,000,000,000
    * - Lock liquidity or other tokens
      - *Free*
      - *Free*
