@@ -3,7 +3,7 @@ Milestone
 
 - |checked| Website
 - |checked| Wiki
-- |unchecked| CoinMarketCap
+- |checked| CoinMarketCap
 - |checked| Social Media
 
   - |checked| Telegram
