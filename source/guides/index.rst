@@ -8,4 +8,5 @@ This section provides various guides on Kenshi and the Kenshi ecosystem.
    :caption: Table of Contents
    
    buy
+   sell
    price
