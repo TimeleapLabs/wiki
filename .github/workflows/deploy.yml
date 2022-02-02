@@ -3,31 +3,36 @@ on:
   push:
     branches:
       - master
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
           python-version: 3.9
+
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 17.x
+
       - name: Install Python dependencies
         run: pip install -r requirements.txt
+
       - name: Install Node.js dependencies
         run: npm i -g katex
+
       - name: Build Sphinx Project
         run: make clean html
-      - name: Deploy to Vercel
-        uses: amondnet/vercel-action@v20
+
+      - name: Deploy to S3
+        uses: shallwefootball/s3-upload-action@master
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-          vercel-args: "--prod"
-          vercel-org-id: ${{ secrets.ORG_ID}}
-          vercel-project-id: ${{ secrets.PROJECT_ID}}
-          scope: ${{ secrets.ORG_ID}}
+          aws_key_id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws_secret_access_key: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
+          aws_bucket: ${{ secrets.AWS_BUCKET }}
+          source_dir: "build"
