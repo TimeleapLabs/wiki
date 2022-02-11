@@ -23,14 +23,14 @@ Website
 -------
 
 - Svelte_ and SvelteKit_
-- Vercel_ is used for deployments
+- AWS_ ECS is used for deployments
 - FontAwesome_ icons
 - Prettier_ for formatting
 - ESLint_ for linting
 
 .. _Svelte: https://svelte.dev
 .. _SvelteKit: https://kit.svelte.dev
-.. _Vercel: https://vercel.com
+.. _AWS: https://aws.amazon.com
 .. _FontAwesome: https://fontawesome.com
 .. _ESLint: https://eslint.org
 
@@ -44,3 +44,27 @@ Wiki
 .. _Sphinx: https://www.sphinx-doc.org/en/master
 .. _Furo: https://github.com/pradyunsg/furo
 .. _Apex: https://apexcharts.com
+
+Oracles
+-------
+
+- Implemented in `Node.js`_
+- `Ethers.js`_ to interact with the blockchain
+- AWS_ Lambda is used for deployments
+- AWS_ SQS and EventBridge are used for scheduling
+
+.. _`Node.js`: https://nodejs.org 
+.. _`Ethers.js`: https://github.com/ethers-io/ethers.js
+
+Deep Index
+----------
+
+- Implemented in `Node.js`_
+- `Ethers.js`_ to interact with the blockchain
+- AWS_ Lambda is used for deployments
+- AWS_ AppSync used for GraphQL
+- `MongoDB Atlas`_ is used to store data
+- Memcached_ used for caching
+
+.. _`MongoDB Atlas`: https://www.mongodb.com/cloud/atlas
+.. _Memcached: https://memcached.org
