@@ -4,4 +4,5 @@ sphinxext-opengraph
 sphinxcontrib-mermaid
 sphinxcontrib-katex
 pygments-graphql-lexer
+pygments_lexer_solidity
 furo
