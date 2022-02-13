@@ -12,6 +12,8 @@
 #
 import os
 import sys
+from sphinx.highlighting import lexers
+from pygments_lexer_solidity import SolidityLexer, YulLexer
 
 sys.path.append(os.path.abspath("./_ext"))
 
@@ -34,7 +36,7 @@ extensions = [
     "sphinx_panels",
     "sphinxext.opengraph",
     "sphinxcontrib.mermaid",
-    "sphinxcontrib.katex"
+    "sphinxcontrib.katex",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -100,3 +102,8 @@ ogp_type = "article"
 
 mermaid_init_js = "mermaid.initialize({startOnLoad:true,theme:'dark',sequence:{showSequenceNumbers:true}});"
 katex_prerender = True
+
+# Solidity
+
+lexers['solidity'] = SolidityLexer()
+lexers['yul'] = YulLexer()

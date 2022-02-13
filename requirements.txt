@@ -3,4 +3,5 @@ sphinx_panels
 sphinxext-opengraph
 sphinxcontrib-mermaid
 sphinxcontrib-katex
+pygments-graphql-lexer
 furo

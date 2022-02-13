@@ -17,6 +17,10 @@ iframe {
   }
 }
 
+.admonition .tabbed-label {
+  font-size: 1em;
+}
+
 .tabbed-content {
   box-shadow: none;
 }
@@ -163,172 +167,197 @@ dt {
 
 /* Dark theme for Apex */
 
-[data-theme=dark] .apexcharts-tooltip.apexcharts-theme-light {
+[data-theme="dark"] .apexcharts-tooltip.apexcharts-theme-light {
   color: #fff;
   background: rgba(30, 30, 30, 0.8);
 }
 
-[data-theme=dark] .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+[data-theme="dark"]
+  .apexcharts-tooltip.apexcharts-theme-light
+  .apexcharts-tooltip-title {
   background: rgba(0, 0, 0, 0.7);
   border-bottom: 1px solid #333;
 }
 
-[data-theme=dark] .apexcharts-xaxistooltip.apexcharts-theme-light {
+[data-theme="dark"] .apexcharts-xaxistooltip.apexcharts-theme-light {
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
-[data-theme=dark] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
+[data-theme="dark"]
+  .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
   border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
+[data-theme="dark"]
+  .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
   border-bottom-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
+[data-theme="dark"] .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
   border-top-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
+[data-theme="dark"] .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
   border-top-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-yaxistooltip.apexcharts-theme-light {
+[data-theme="dark"] .apexcharts-yaxistooltip.apexcharts-theme-light {
   background: rgba(0, 0, 0, 0.7);
   border: 1px solid rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
-[data-theme=dark] .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
+[data-theme="dark"] .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
   border-left-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
+[data-theme="dark"]
+  .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
   border-left-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
+[data-theme="dark"]
+  .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
   border-right-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
+[data-theme="dark"]
+  .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
   border-right-color: rgba(0, 0, 0, 0.5);
 }
 
-[data-theme=dark] .apexcharts-theme-light .apexcharts-zoom-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-reset-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-pan-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-selection-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-menu-icon svg,
-[data-theme=dark] .apexcharts-theme-light .apexcharts-toolbar-custom-icon svg {
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-zoom-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-reset-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-pan-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-selection-icon svg,
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-menu-icon svg,
+[data-theme="dark"]
+  .apexcharts-theme-light
+  .apexcharts-toolbar-custom-icon
+  svg {
   fill: #f3f4f5;
 }
 
-[data-theme=dark] .apexcharts-theme-light .apexcharts-menu {
+[data-theme="dark"] .apexcharts-theme-light .apexcharts-menu {
   background: rgba(0, 0, 0, 0.7);
   color: #fff;
 }
 
-[data-theme=dark] .apexcharts-text:not(.apexcharts-pie .apexcharts-datalabels .apexcharts-text), 
-[data-theme=dark] .apexcharts-title-text {
+[data-theme="dark"]
+  .apexcharts-text:not(.apexcharts-pie .apexcharts-datalabels .apexcharts-text),
+[data-theme="dark"] .apexcharts-title-text {
   fill: rgb(155, 161, 163);
 }
 
-[data-theme=dark] .apexcharts-gridline {
+[data-theme="dark"] .apexcharts-gridline {
   stroke: rgb(55, 61, 63);
 }
 
-[data-theme=dark] .apexcharts-legend-text {
+[data-theme="dark"] .apexcharts-legend-text {
   color: rgb(155, 161, 163) !important;
 }
 
 @media (prefers-color-scheme: dark) {
-
-  [data-theme=auto] .apexcharts-tooltip.apexcharts-theme-light {
+  [data-theme="auto"] .apexcharts-tooltip.apexcharts-theme-light {
     color: #fff;
     background: rgba(30, 30, 30, 0.8);
   }
 
-  [data-theme=auto] .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  [data-theme="auto"]
+    .apexcharts-tooltip.apexcharts-theme-light
+    .apexcharts-tooltip-title {
     background: rgba(0, 0, 0, 0.7);
     border-bottom: 1px solid #333;
   }
 
-  [data-theme=auto] .apexcharts-xaxistooltip.apexcharts-theme-light {
+  [data-theme="auto"] .apexcharts-xaxistooltip.apexcharts-theme-light {
     background: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: #fff;
   }
 
-  [data-theme=auto] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
+  [data-theme="auto"]
+    .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:after {
     border-bottom-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
+  [data-theme="auto"]
+    .apexcharts-xaxistooltip-bottom.apexcharts-theme-light:before {
     border-bottom-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
+  [data-theme="auto"]
+    .apexcharts-xaxistooltip-top.apexcharts-theme-light:after {
     border-top-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
+  [data-theme="auto"]
+    .apexcharts-xaxistooltip-top.apexcharts-theme-light:before {
     border-top-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-yaxistooltip.apexcharts-theme-light {
+  [data-theme="auto"] .apexcharts-yaxistooltip.apexcharts-theme-light {
     background: rgba(0, 0, 0, 0.7);
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: #fff;
   }
 
-  [data-theme=auto] .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
+  [data-theme="auto"]
+    .apexcharts-yaxistooltip-left.apexcharts-theme-light:after {
     border-left-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
+  [data-theme="auto"]
+    .apexcharts-yaxistooltip-left.apexcharts-theme-light:before {
     border-left-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
+  [data-theme="auto"]
+    .apexcharts-yaxistooltip-right.apexcharts-theme-light:after {
     border-right-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
+  [data-theme="auto"]
+    .apexcharts-yaxistooltip-right.apexcharts-theme-light:before {
     border-right-color: rgba(0, 0, 0, 0.5);
   }
 
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoom-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-reset-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-pan-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-selection-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-menu-icon svg,
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-toolbar-custom-icon svg {
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-zoom-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-zoomin-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-zoomout-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-reset-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-pan-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-selection-icon svg,
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-menu-icon svg,
+  [data-theme="auto"]
+    .apexcharts-theme-light
+    .apexcharts-toolbar-custom-icon
+    svg {
     fill: #f3f4f5;
   }
 
-  [data-theme=auto] .apexcharts-theme-light .apexcharts-menu {
+  [data-theme="auto"] .apexcharts-theme-light .apexcharts-menu {
     background: rgba(0, 0, 0, 0.7);
     color: #fff;
   }
 
-  [data-theme=auto] .apexcharts-text:not(.apexcharts-pie .apexcharts-datalabels .apexcharts-text), 
-  [data-theme=auto] .apexcharts-title-text {
+  [data-theme="auto"]
+    .apexcharts-text:not(.apexcharts-pie
+      .apexcharts-datalabels
+      .apexcharts-text),
+  [data-theme="auto"] .apexcharts-title-text {
     fill: rgb(155, 161, 163);
   }
 
-  [data-theme=auto] .apexcharts-gridline {
+  [data-theme="auto"] .apexcharts-gridline {
     stroke: rgb(55, 61, 63);
   }
 
-  [data-theme=auto] .apexcharts-legend-text {
-    color: rgb(155, 161, 163)  !important;
+  [data-theme="auto"] .apexcharts-legend-text {
+    color: rgb(155, 161, 163) !important;
   }
-
 }

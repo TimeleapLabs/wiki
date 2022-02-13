@@ -10,3 +10,5 @@ Here you can find a list of Kenshi products and services.
    
    lbp
    locker
+   deep-index/index
+   vrf/index

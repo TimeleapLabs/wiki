@@ -1,5 +1,5 @@
-Liquidity Bootstrapping Oracle
-==============================
+Liquidity Bootstrapping
+=======================
 
 The Kenshi Liquidity Bootstrapping Oracle helps kickstart token projects
 with a low liquidity at a fair launch price. This is the right tool if you
