@@ -10,6 +10,9 @@ Node.js
 
   .. note:: This example requires the express npm package installed.
 
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/reverse-api-example-node>`__.
+
   .. code-block:: javascript
 
     import express from "express";
@@ -54,6 +57,9 @@ Python
 .. tabbed:: flask
 
   .. note:: This example requires the flask Python package installed.
+
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/reverse-api-example-python>`__.
 
   .. code-block:: python
 

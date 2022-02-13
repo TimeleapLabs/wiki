@@ -10,6 +10,9 @@ Node.js
 
   .. note:: This example requires Node.js v14.8+ and the axios npm package installed.
 
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-node-axios>`__
+
   .. code-block:: javascript
 
     import axios from "axios";
@@ -23,12 +26,12 @@ Node.js
     * Define your GraphQL query here
     */
     const query = `{
-        getEntries(blockchain: "binance-testnet") {
-          event {
-            name
-          }
+      getEntries(blockchain: "binance-testnet") {
+        event {
+          name
         }
-      }`;
+      }
+    }`;
 
     /**
     * POST request sending the GraphQL query to the
@@ -41,6 +44,9 @@ Node.js
 .. tabbed:: node-fetch
 
   .. note:: This example requires Node.js v14.8+ and the node-fetch npm package installed.
+
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-node-fetch>`__
 
   .. code-block:: javascript
 
@@ -84,6 +90,9 @@ Python
 
   .. note:: This example requires the requests Python package installed.
 
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-python>`__
+
   .. code-block:: python
 
     import requests
@@ -114,6 +123,9 @@ Go
 .. tabbed:: shurcool/graphql
 
   .. note:: This example requires the shurcool/graphql package installed.
+
+  .. seealso::
+    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-go>`__
 
   .. code-block:: go
 

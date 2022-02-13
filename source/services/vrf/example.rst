@@ -15,6 +15,10 @@ you can find the contract address on the next section.
   The system is named after the 20-sided dice which are central to the core mechanics of many
   actions in the game. [#f1]_
 
+.. seealso::
+
+    This example is also available on `GitHub <https://github.com/kenshi-token/d20>`_.
+
 D20 Smart Contract
 ------------------
 
