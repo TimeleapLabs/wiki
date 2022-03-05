@@ -17,6 +17,17 @@ iframe {
   }
 }
 
+.team-pfp img {
+  height: 64px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.team-links *:not(a) {
+  color: #ccc;
+  font-size: 0.9em;
+}
+
 .admonition .tabbed-label {
   font-size: 1em;
 }

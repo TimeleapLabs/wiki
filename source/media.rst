@@ -1,19 +1,17 @@
 Media
 =====
 
-Kenshi logo:
+Kenshi logos and artwork:
 
-- :download:`Detailed <_static/images/media/kenshi.round.png>`
-- :download:`Simplified <_static/images/media/kenshi.round.grey.png>`
-- :download:`Textual <_static/images/media/kenshi.textual.svg>`
+- :download:`Logo <_static/images/media/kenshi.svg>`
+- :download:`Illustrated logo <_static/images/media/kenshi.illustrated.png>`
+- :download:`Full-width illustrated logo <_static/images/media/kenshi.illustrated.long.png>`
+- :download:`Mascot <_static/images/media/kenshi.mascot.png>`
+- :download:`Mascot cut-out <_static/images/media/kenshi.mascot.round.png>`
 
 
 About
 -----
-
-We have purchased usage rights for all works listed above.
-However, we are not able to trademark them. We claim no other rights over
-these files other than the rights of usage for Kenshi project.
 
 Feel free to use the works as a symbol representing Kenshi, to promote Kenshi
 in your videos, blog posts or memes.

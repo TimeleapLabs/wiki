@@ -20,4 +20,5 @@ Kenshi shares the profits of its projects with the holders.
    media
    community
    guides/index
+   team
    tech
