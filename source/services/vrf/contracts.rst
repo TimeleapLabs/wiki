@@ -4,8 +4,8 @@
 Contracts Addresses
 ===================
 
-On this page you can find the contract addresses for the `Binance Smart Chain`_, Polygon_
-and the Fantom_ chains.These contract addresses should be passed to the ``setupVRF`` function
+On this page you can find the contract addresses for the `Binance Smart Chain`_, Polygon_,
+Fantom_, and the Avalanche_ chains.These contract addresses should be passed to the ``setupVRF`` function
 depending on which chain your contract is deployed to.
 
 .. admonition:: Currently in beta test
@@ -78,3 +78,24 @@ Fantom Testnet
      - :hex:`0x62d9b73C79365cff0C21ac58428a42D20E274e64`
    * - Kenshi Token
      - :hex:`0x039976F40a15Bbaaf055144d59F0a47341AF2dcb`
+
+Avalanche
+---------
+
+Fuji Testnet
+~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0x62d9b73C79365cff0C21ac58428a42D20E274e64`
+   * - VRF Utils
+     - :hex:`0x039976F40a15Bbaaf055144d59F0a47341AF2dcb`
+   * - D20 Example
+     - :hex:`0xf315dB9C949bd23BF910c735F1a8e57308975a11`
+   * - Kenshi Token
+     - :hex:`0xd8aA9BeB5ef0eD1Bbb8Efb6EE665888c2E4F7b64`
