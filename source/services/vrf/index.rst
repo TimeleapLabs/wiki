@@ -8,9 +8,9 @@ cryptocurrency games, or anywhere on the blockchain where a random number is nee
 
 .. admonition:: Currently in beta test
 
-   This service is currently in beta test mode and active only on the Binance Smart Chain (BSC),
-   Fantom (FTM) and Polygon (MATIC) testnets. If you wish to participate in the beta test send
-   us a message on our  `Telegram chat`_.
+   This service is currently in beta test and active only on the Binance Smart Chain (BSC),
+   Fantom (FTM), Polygon (MATIC) and Avalanche (AVAX) testnets. If you wish to participate in
+   the beta test send us a message on our  `Telegram chat`_.
 
 .. _`Telegram chat`: https://t.me/kenshi_token
 
@@ -38,7 +38,7 @@ it into your smart contracts in the following sections.
    :caption: Table of Contents
 
    getting-started
-   example   
+   example
    contracts
    api
    pricing

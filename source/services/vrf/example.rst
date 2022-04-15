@@ -41,14 +41,9 @@ D20 Smart Contract
       * @dev this function can be used to pass config parameters
       * to the Kenshi VRF library
       */
-      function setVRFConfig(
-          address coordinator,
-          address utils,
-          address kenshi,
-          bool verify
-      ) public {
+      function setVRFConfig(address coordinator) public {
           require(msg.sender == _owner, "Only owner");
-          setupVRF(coordinator, utils, kenshi, verify);
+          setupVRF(coordinator);
       }
 
       /**
