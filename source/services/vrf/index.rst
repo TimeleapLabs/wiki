@@ -41,4 +41,5 @@ it into your smart contracts in the following sections.
    example
    contracts
    api
+   retry
    pricing
