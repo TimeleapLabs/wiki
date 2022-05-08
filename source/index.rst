@@ -10,15 +10,11 @@ Kenshi shares the profits of its projects with the holders.
    
    self
    kenshi
-   investment/index
-   tokenomics
-   features/index
    services/index
+   token/index
    milestone
    faq
-   disclaimer
    media
    community
-   guides/index
    team
    tech

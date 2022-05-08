@@ -4,10 +4,12 @@ Community
 These are the official Kenshi community links:
 
 - Telegram_
+- `Telegram (for developers)`_
 - Twitter_
 - Reddit_
 - Medium_
 - GitHub_
+- Discord_
 
 .. warning::
 
@@ -20,6 +22,8 @@ These are the official Kenshi community links:
 .. _Reddit: https://www.reddit.com/r/kenshi_token
 .. _Medium: https://blog.kenshi.io
 .. _GitHub: https://github.com/kenshi-token
+.. _`Telegram (for developers)`: https://t.me/kenshi_developers
+.. _Discord: https://discord.gg/YNXMYF6d
 
 Contact Details
 ---------------

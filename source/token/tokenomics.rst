@@ -20,7 +20,7 @@ Tax
 
 A regular 5% tax is distributed according to the following chart:
 
-.. chart:: _static/charts/tokenomics.json
+.. chart:: ../_static/charts/tokenomics.json
 
 If the tax amount exceeds 5% (due to an early sale fine), then 1% of the transfer
 is burned and the remaining tax is divided 1:1 between reflections and treasury.
