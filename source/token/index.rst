@@ -11,6 +11,7 @@ The Kenshi token
    :caption: Table of Contents
 
    migrate
+   migrate-locked
    investment/index
    tokenomics
    features/index
