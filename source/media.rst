@@ -119,6 +119,10 @@ Click on the images to get the high-res version.
 
     .. image:: ./_static/images/media/pfp/thumbnail/20.png
       :target: ./_static/images/media/pfp/20.png
+    ---
+
+    .. image:: ./_static/images/media/pfp/thumbnail/21.png
+      :target: ./_static/images/media/pfp/21.png
 
 About
 -----
