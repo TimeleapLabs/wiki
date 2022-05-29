@@ -37,5 +37,5 @@ A fine is added to the base tax when an early sale happens. Check the chart
 below for the value of the fine based on how many days passed from the
 date of purchase:
 
-.. chart:: ../_static/charts/tax.json
+.. chart:: ../../_static/charts/tax.json
 
