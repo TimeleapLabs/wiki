@@ -20,7 +20,7 @@ Pricing
 -------
 
 Kenshi lockers have a one time flat fee and all future interactions with them
-are free. You can either pay in BNB, or lock a specific amount of Kenshi tokens
+are free. You can either pay or lock a specific amount of Kenshi tokens
 for at least a year and get the locker for free. Please note that you won't pay
 any Kenshi transaction tax if you choose to pay by locking Kenshi, and you will
 receive reflections on top of that.
@@ -30,11 +30,11 @@ receive reflections on top of that.
    :header-rows: 1
 
    * - Locker Action
-     - Price (BNB)
-     - Price (Kenshi)
+     - Price (Pay in Kenshi)
+     - Price (Lock Kenshi)
    * - Create a new locker
-     - 0.2
-     - Lock 1,000,000,000
+     - 3,000,000,000
+     - Lock 1,500,000,000
    * - Lock liquidity or other tokens
      - *Free*
      - *Free*

@@ -9,8 +9,8 @@ our dispatcher notify your HTTP endpoint with the data you requested.
    :maxdepth: 2
    :caption: Table of Contents
 
+   introduction
    getting-started
-   listeners/index
    examples
    schema
    pricing

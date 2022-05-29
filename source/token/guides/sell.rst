@@ -20,10 +20,5 @@ If you still want to sell your tokens, use a DEX that allows slippage higher tha
 
 On the first three to four days, you should try to set a slippage between 50% and 120%
 
-How to calculate my sell tax?
------------------------------
-You can use our tool_ to calculate what's your current sale tax is based on your wallet
-
 .. _`5% base tax`: ../tokenomics.html#tax
-.. _poocoin: https://poocoin.app/tokens/0x8ada51404f297bf2603912d1606340223c0a7784
-.. _tool: https://kenshi.io/tools
+.. _poocoin: https://poocoin.app/tokens/0x42f9c5a27a2647a64f7D3d58d8f896C60a727b0f

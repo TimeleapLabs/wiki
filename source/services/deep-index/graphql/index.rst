@@ -13,6 +13,7 @@ To learn more about GraphQL itself, you can visit the `official GraphQL website`
    :maxdepth: 2
    :caption: Table of Contents
    
+   introduction
    getting-started
    endpoints
    schema

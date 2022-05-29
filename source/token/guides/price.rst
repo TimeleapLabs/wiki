@@ -21,8 +21,8 @@ and token Y, the following formula should always hold:
 .. math::
   X \times Y = Constant
 
-An example of this would be the Kenshi / BNB pair on PancakeSwap. Deploying
-1000 Kenshi tokens against 10 BNB, leads to the following constant:
+An example of this would be the Kenshi / BUSD pair on PancakeSwap. Deploying
+1000 Kenshi tokens against 10 BUSD, leads to the following constant:
 
 .. math::
   1000 \times 10 = 10000
@@ -30,7 +30,7 @@ An example of this would be the Kenshi / BNB pair on PancakeSwap. Deploying
 The price of the token is defined based on the same formula. Let's say you
 want to buy 50 Kenshi tokens, that means you are going to remove
 that amount of Kenshi tokens from the liquidity pool, and in return you are
-adding B amount of BNB tokens to the pool, we'll then have:
+adding B amount of BUSD tokens to the pool, we'll then have:
 
 .. math::
   (1000 - 50) \times (10 + B) = 10000
@@ -41,10 +41,10 @@ at the time of trade:
 .. math::
   B = \dfrac{10000}{1000 - 50} - 10 \approx 0.526
 
-It means to buy 10 Kenshis, you'll need to pay 0.526 BNBs. After making the
-purchase, the amount of tokens in the pool changes to 950 Kenshis and 10.526 BNBs.
+It means to buy 10 Kenshis, you'll need to pay 0.526 BUSDs. After making the
+purchase, the amount of tokens in the pool changes to 950 Kenshis and 10.526 BUSDs.
 Let's say some other person arrives now, and wants to buy 50 Kenshis as well.
-Do they have to pay the same amount of BNB in order to get this amount of Kenshis?
+Do they have to pay the same amount of BUSD in order to get this amount of Kenshis?
 Let's recalculate:
 
 .. math::
@@ -54,16 +54,16 @@ Let's recalculate:
   B \approx	0.585
 
 As you can see, now the price of the token is more than before. Basically, the more
-Kenshi that is bought and removed from the pool the more BNBs will be in the pool,
+Kenshi that is bought and removed from the pool the more BUSDs will be in the pool,
 making the price of Kenshi tokens go higher.
 
 It works the other way around as well. If people start selling their Kenshi tokens, then
-there will be more Kenshi tokens in the pool and less BNBs, making the price of Kenshi
+there will be more Kenshi tokens in the pool and less BUSDs, making the price of Kenshi
 tokens go lower. That's how the market works, it's a balance between supply and demand.
 
 .. note::
   In the examples above, we used smaller numbers on purpose to make the calculations
-  more readable. Actuall numbers deployed to the Kenshi / BNB pool are much bigger
+  more readable. Actuall numbers deployed to the Kenshi / BUSD pool are much bigger
   than the ones used above.
 
 .. _PancakeSwap: https://pancakeswap.finance
@@ -79,6 +79,6 @@ be distributed to the holders.
 
 Another way of improving the price is through burning. When a burning process happens
 a certain amount of Kenshi tokens are taken out of circulation, which means they will never
-get added to the pool ever again. Doing this guarantees there will be more and more BNBs 
+get added to the pool ever again. Doing this guarantees there will be more and more BUSDs 
 against Kenshi tokens in the pool as we move forwards, making the price of Kenshi tokens
 go higher over time.

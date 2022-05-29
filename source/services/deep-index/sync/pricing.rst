@@ -1,8 +1,15 @@
 Pricing
 =======
 
-Testnets
---------
+On testnets and mainnets, the price of the Sync task is $0.0000035 per running second.
+The amount of seconds per month is calculated based on the task interval and timeout.
+The price is paid in Kenshi tokens.
 
-On Fantom (FTM), Binance Smart Chain (BSC) and Polygon (MATIC) testnets, the Kenshi beta test program provides free access to
-the Kenshi Deep Index Sync service.
+.. note::
+  If you encounter any issues with payments, contact us at support@kenshi.io.
+
+Financing
+---------
+
+To get a grant on our services or to get a discount you can contact us at
+inquiries@kenshi.io.

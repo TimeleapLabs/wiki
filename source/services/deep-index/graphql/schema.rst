@@ -56,3 +56,30 @@ Below you can find the Kenshi Deep Index GraphQL schema.
     query: Query
   }
 
+Available blockchains
+---------------------
+
+Available blockchains are:
+
+.. list-table::
+   :header-rows: 1
+   :widths: 40 60
+
+   * - Blockchain
+     - GraphQL value
+   * - Binance Smart Chain
+     - ``binance-mainnet``
+   * - Binance Smart Chain testnet
+     - ``binance-testnet``
+   * - Polygon
+     - ``polygon-mainnet``
+   * - Polygon Mumbai
+     - ``polygon-mumbai``
+   * - Fantom
+     - ``fantom-mainnet``
+   * - Fantom testnet
+     - ``fantom-testnet``
+   * - Avalanche
+     - ``avalanche-mainnet``
+   * - Avalanche Fuji
+     - ``avalanche-fuji``

@@ -3,9 +3,9 @@ Deep Index
 
 .. admonition:: Currently in beta test
 
-   This service is currently in beta test and active only on the Binance Smart Chain (BSC),
-   Fantom (FTM), Polygon (MATIC) and Avalanche (AVAX) testnets. If you wish to participate in
-   the beta test send us a message on our `Telegram chat`_.
+   This service is currently in beta test and active on the Binance Smart Chain (BSC),
+   Fantom (FTM), Polygon (MATIC) and Avalanche (AVAX) testnets and mainnets. If you need any
+   help don't hesitate to join our communities_ or send us an email at `support@kenshi.io`_.
 
 The Kenshi Deep Index service consists of multiple services for retrieving, querying
 and processing blockchain data:
@@ -22,4 +22,5 @@ and processing blockchain data:
    graphql/index
    webhook/index
 
-.. _`Telegram chat`: https://t.me/kenshi_token
+.. _communities: ../../community.html
+.. _`support@kenshi.io`: mailto:support@kenshi.io

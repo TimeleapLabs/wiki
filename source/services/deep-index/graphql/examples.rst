@@ -21,12 +21,14 @@ Node.js
     * This is the Kenshi Deep Index endpoint for GraphQL
     */
     const endpoint = "https://api.kenshi.io/index/graphql";
+    const apikey = "YOU_API_KEY";
+    const owner = "YOUR_WALLET_ADDRESS";
 
     /**
     * Define your GraphQL query here
     */
     const query = `{
-      getEntries(blockchain: "binance-testnet") {
+      getEntries(blockchain: "binance-testnet", apikey: "${apikey}", owner: "${owner}") {
         event {
           name
         }
@@ -56,12 +58,14 @@ Node.js
     * This is the Kenshi Deep Index endpoint for GraphQL
     */
     const endpoint = "https://api.kenshi.io/index/graphql";
+    const apikey = "YOU_API_KEY";
+    const owner = "YOUR_WALLET_ADDRESS";
 
     /**
     * Define your GraphQL query here
     */
     const query = `{
-      getEntries(blockchain: "binance-testnet") {
+      getEntries(blockchain: "binance-testnet", apikey: "${apikey}", owner: "${owner}") {
         event {
           name
         }
@@ -102,7 +106,7 @@ Python
 
     # Define your GraphQL query here
     query = """{
-        getEntries(blockchain: "binance-testnet") {
+        getEntries(blockchain: "binance-testnet", apikey: "YOUR_API_KEY", owner: "YOU_WALLET_ADDRESS") {
             event {
                 name
             }
@@ -158,7 +162,7 @@ Go
           Event struct {
             Name graphql.String
           }
-        } `graphql:"getEntries(blockchain: \"binance-testnet\")"`
+        } `graphql:"getEntries(blockchain: \"binance-testnet\", apikey: \"YOUR_API_KEY\", owner: \"YOUR_WALLET_ADDRESS\")"`
       }
 
       /**

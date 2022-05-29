@@ -10,7 +10,7 @@ or the Kenshi Reverse-API service.
    :maxdepth: 2
    :caption: Table of Contents
    
+   introduction
    getting-started
-   schema
    example
    pricing
