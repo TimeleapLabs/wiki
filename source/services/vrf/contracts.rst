@@ -5,7 +5,7 @@ Contracts Addresses
 ===================
 
 On this page you can find the contract addresses for the `Binance Smart Chain`_, Polygon_,
-Fantom_, and the Avalanche_ chains. These contract addresses should be passed to the ``setupVRF``
+Fantom_, and the `Avalanche (C-Chain)_` chains. These contract addresses should be passed to the ``setupVRF``
 function depending on which chain your contract is deployed to.
 
 .. admonition:: Currently in beta test
