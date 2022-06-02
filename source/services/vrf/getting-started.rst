@@ -5,7 +5,7 @@ The Kenshi VRF oracle implements a request-response message exchange pattern.
 That means your smart contract needs to ask for a random number first, then
 wait until our oracle answers to this random number request.
 
-We implemented and provide a Solidity VRF consumer library you can use for
+We implement and provide a Solidity VRF consumer library you can use for
 automatically handling the steps required for requesting and receiving a random
 number. If you are interested in knowing how the process works you can read more
 about the detailed steps in the `Kenshi VRF Workflow`_ section below.
@@ -26,6 +26,31 @@ about the detailed steps in the `Kenshi VRF Workflow`_ section below.
     .. code-block:: bash
 
       yarn add @kenshi.io/vrf-consumer
+
+VRF Subscriptions
+-----------------
+
+Kenshi dashboard_ can be to create a VRF subscription. A subscription maps a Kenshi
+payment to one or more contracts that use the Kenshi VRF. Every time one of these
+contracts requests a VRF, the price for delivering the VRF to that contract is reduced
+from the credit charged to the subscription.
+
+This reduces gas fees and VRF delivery prices significantly, making it cheaper to
+request randomness on the blockchain.
+
+.. figure:: ../../_static/images/dashboard/vrf.png
+
+  New VRF subscription form
+
+.. _dashboard: https://kenshi.io/dashboard
+
+To fill the form, you can refer to the following guide:
+
+1. **Chain** is the chain you are targeting. This is the chain yoru smart contract is deployed to.
+2. **Credit** is the amount of Kenshi you want to send to this subscription. This amount is consumed
+   for paying the VRF fees requested by the **allow** list.
+3. The **allow** list is a list of smart contract addresses you want to use this subscription for.
+   These addresses must be checksummed.
 
 Implementation
 --------------
@@ -56,14 +81,8 @@ To use the Kenshi VRF oracle for requesting random numbers, follow the steps bel
 
 An example of doing this can be found here_.
 
-.. note::
-
-  Make sure you have enough Kenshi tokens stored in your smart contract
-  for paying the VRF fees. You can request testnet Kenshi by asking on our
-  `Telegram chat`_.
-
 .. _here: ./example.html
-.. _`Telegram Chat`: https://t.me/kenshi_token
+.. _`Telegram Chat`: https://t.me/kenshi_developers
 
 Using the randomness
 --------------------
@@ -94,17 +113,15 @@ contract lacking enough Kenshi for paying the VRF fees.
 Kenshi VRF Workflow
 -------------------
 
-Kenshi implements the ERC1363_ payable token standard, exposing the ``verifyAndCall``
-and ``transferAndCall`` functions. Your contract calls the ``verifyAndCall`` function
-of our ERC1363 token, effectively calling the ``onApprovalReceived`` function on the
-Kenshi VRF coordinator contract passing a ``requestId`` to it. If you inherit from
-the Kenshi ``VRFConsumer`` library this is done automatically for you. To prevent
-collisions, the library also increments the ``requestId`` for each request.
+Each time your smart contract calls the ``requestRandomness`` method of the Kenshi
+VRF coordinator, it receives a ``requestId``. The Kenshi VRF coordinator keeps record
+of the ``requestId`` for your smart contracts and increments it by one every time this
+function is called from your smart contract.
 
-Once the call is received on the VRF coordinator, an event is emitted on the blockchain
-that includes the address of your smart contract and the ``requestId`` of the request.
-This event is then picked up by the Kenshi Deep Index Sync oracle, and passed to the
-Kenshi VRF oracle using the Kenshi Deep Index Event Dispatcher.
+An event is then emitted from the VRF coordinator that incldues this ``requestId``
+as well as the address of your smart contract. This event is then picked up by the
+Kenshi Deep Index Sync oracle, and passed to the Kenshi VRF oracle using the Kenshi
+Deep Index Event Dispatcher.
 
 Next the oracle combines the following parameters to create an alpha string that is
 used for random number generation according to the Goldberg ECVRF draft 10 standard:
@@ -131,4 +148,3 @@ The call reverts if the proof for the random number is invalid. When all the abo
 executed successfully, the ``fulfillRandomness`` function is called on your smart contract,
 passing the ``requestId`` and the ``randomness``.
 
-.. _ERC1363: https://eips.ethereum.org/EIPS/eip-1363

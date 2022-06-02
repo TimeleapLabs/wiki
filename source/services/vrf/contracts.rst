@@ -11,10 +11,10 @@ function depending on which chain your contract is deployed to.
 .. admonition:: Currently in beta test
 
    This service is currently in beta test and active only on the Binance Smart Chain (BSC),
-   Fantom (FTM) and Polygon (MATIC) testnets. If you wish to participate in the beta test send
-   us a message on our  `Telegram chat`_.
+   Fantom (FTM) and Polygon (MATIC) testnets and mainnets. If you have any issues or questions
+   you can joun our `Telegram chat`_ or send us an email at support@kenshi.io.
 
-.. _`Telegram chat`: https://t.me/kenshi_token
+.. _`Telegram chat`: https://t.me/kenshi_developers
 
 Binance Smart Chain
 -------------------
@@ -29,13 +29,11 @@ BSC Testnet
    * - Contract
      - Address
    * - Coordinator
-     - :hex:`0x0274b7DB982B2e0Bb98B84a0Cfbb062B01566928`
+     - :hex:`0x1f54B2dF5b9f15b834bA3E85576244BC7e689501`
    * - VRF Utils
      - :hex:`0x2c317b986CDD71FaAcd46e6E47a3f3E62F51E2bf`
    * - D20 Example
-     - :hex:`0x398d50B3494e3cd64018b8FD39BC88c02064BF98`
-   * - Kenshi Token
-     - :hex:`0xc3eD8d7207e5171C6f7565dd5e18720AA9E333dE`
+     - :hex:`0xA585Aa1A06a17a0DC2Ee8b12EfD40b08826020F1`
 
 Polygon
 -------
@@ -50,13 +48,11 @@ Mumbai Testnet
    * - Contract
      - Address
    * - Coordinator
-     - :hex:`0x211c6dAC64d4784CF09f7ca6CD812f6e9de0Aa37`
+     - :hex:`0xB2B448eBF7b44C5d1b3Ded988525789A12bEABD9`
    * - VRF Utils
      - :hex:`0x184B5bd3c3494fD38BD2b489669E4dB33a4b72AE`
    * - D20 Example
-     - :hex:`0x17D7dC8B5B4C64c27A5F69Cd9De4F97D44Ca7af5`
-   * - Kenshi Token
-     - :hex:`0xA8eeAd1e6a4Cab8010DCA5F7805d7Cb2c2fD9117`
+     - :hex:`0xc490A24dd3A2600DbedD3CC1E7151c1D7645b656`
 
 Fantom
 ------
@@ -71,13 +67,11 @@ Fantom Testnet
    * - Contract
      - Address
    * - Coordinator
-     - :hex:`0x3Cbc7Dd02f8853968C9D5f36298Cf30B8993bA54`
+     - :hex:`0xf864115542CdC5e7d001101Cf79C147B0aE497ee`
    * - VRF Utils
      - :hex:`0xd8aA9BeB5ef0eD1Bbb8Efb6EE665888c2E4F7b64`
    * - D20 Example
-     - :hex:`0xc9De8dE11d09A5C1C3e5E9B5a104e3357ff6148d`
-   * - Kenshi Token
-     - :hex:`0x039976F40a15Bbaaf055144d59F0a47341AF2dcb`
+     - :hex:`0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167`
 
 Avalanche
 ---------
@@ -92,10 +86,8 @@ Fuji Testnet
    * - Contract
      - Address
    * - Coordinator
-     - :hex:`0x965e364987356785b7E89e2Fe7B70f5E5107332d`
+     - :hex:`0xc41eCc605d583Aa3A5CD5b8776B0D8ed3b6bb312`
    * - VRF Utils
      - :hex:`0x039976F40a15Bbaaf055144d59F0a47341AF2dcb`
    * - D20 Example
-     - :hex:`0x274F14d02c60933Db669B84A434608d5c262A603`
-   * - Kenshi Token
-     - :hex:`0xd8aA9BeB5ef0eD1Bbb8Efb6EE665888c2E4F7b64`
+     - :hex:`0x9877690753444fa090C107bF83ea48F7EdAD7937`
