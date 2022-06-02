@@ -19,6 +19,20 @@ function depending on which chain your contract is deployed to.
 Binance Smart Chain
 -------------------
 
+BSC Mainnet
+~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0xe5830c0e60FBBCd9d6f71B7a397964d61B6d5eab`
+   * - VRF Utils
+     - :hex:`0xdDac2D19073163fD1349e9fa6a3691381480Dd30`
+
 BSC Testnet
 ~~~~~~~~~~~
 
@@ -37,6 +51,20 @@ BSC Testnet
 
 Polygon
 -------
+
+Polygon Mainnet
+~~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0x6DD8b59648Df205fef3C98F5545cC96859034C6C`
+   * - VRF Utils
+     - :hex:`0x70e3aa1c0d5aDa1D4B573eDcF6a6FF3C26760A1A`
 
 Mumbai Testnet
 ~~~~~~~~~~~~~~
@@ -57,6 +85,20 @@ Mumbai Testnet
 Fantom
 ------
 
+Fantom Mainnet
+~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0x6DD8b59648Df205fef3C98F5545cC96859034C6C`
+   * - VRF Utils
+     - :hex:`0x70e3aa1c0d5aDa1D4B573eDcF6a6FF3C26760A1A`
+
 Fantom Testnet
 ~~~~~~~~~~~~~~
 
@@ -73,8 +115,22 @@ Fantom Testnet
    * - D20 Example
      - :hex:`0x571aa5DAf9196e20f97AA5f82d0c991D2A5CF167`
 
-Avalanche
----------
+Avalanche (C-Chain)
+-------------------
+
+Avalanche Mainnet
+~~~~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0x6DD8b59648Df205fef3C98F5545cC96859034C6C`
+   * - VRF Utils
+     - :hex:`0x70e3aa1c0d5aDa1D4B573eDcF6a6FF3C26760A1A`
 
 Fuji Testnet
 ~~~~~~~~~~~~
