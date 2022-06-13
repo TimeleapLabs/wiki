@@ -43,7 +43,13 @@ Below you can find the Kenshi Deep Index GraphQL schema.
       toBlock: Int,
       address: String,
       event: String,
-      signature: String
+      signature: String,
+      txHash: String,
+      txIndex: String,
+      logIndex: String,
+      blockHash: String,
+      owner: String,
+      apikey: String
     ): [Entry]
   }
 
