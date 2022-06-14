@@ -30,7 +30,7 @@ about the detailed steps in the `Kenshi VRF Workflow`_ section below.
 VRF Subscriptions
 -----------------
 
-Kenshi dashboard_ can be to create a VRF subscription. A subscription maps a Kenshi
+Kenshi dashboard_ can be to used create a VRF subscription. A subscription maps a Kenshi
 payment to one or more contracts that use the Kenshi VRF. Every time one of these
 contracts requests a VRF, the price for delivering the VRF to that contract is reduced
 from the credit charged to the subscription.
