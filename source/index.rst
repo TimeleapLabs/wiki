@@ -18,3 +18,4 @@ Kenshi shares the profits of its projects with the holders.
    community
    team
    tech
+   puzzles/index
