@@ -76,9 +76,3 @@ buy and hold, and invite others to do so. By sharing Kenshi projects on social m
 inviting others to the project you can improve the price of Kenshi tokens. Futhermore, this
 will bring more profits to the system, making us able to buy back more Kenshi tokens to
 be distributed to the holders.
-
-Another way of improving the price is through burning. When a burning process happens
-a certain amount of Kenshi tokens are taken out of circulation, which means they will never
-get added to the pool ever again. Doing this guarantees there will be more and more BUSDs 
-against Kenshi tokens in the pool as we move forwards, making the price of Kenshi tokens
-go higher over time.

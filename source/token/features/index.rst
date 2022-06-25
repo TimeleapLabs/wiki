@@ -8,7 +8,6 @@ This section provides a summary of the Kenshi token features.
    :caption: Table of Contents
    
    reflections
-   burns
    variable-tax
    max-balance
    liquidity-bootstrapping

@@ -1,10 +1,10 @@
 Kenshi Wiki
 ===========
 
-Kenshi is a profit sharing token with reflections and per transaction burns.
+Kenshi is a profit sharing token with reflections.
 Kenshi shares the profits of its projects with the holders.
 
-.. warning:: 
+.. warning::
    Buying the token? Make sure to read the `token documentation`_ first.
 
 .. _`token documentation`: ./token/index.html
