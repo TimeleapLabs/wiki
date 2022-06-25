@@ -4,19 +4,19 @@
 Contracts Addresses
 ===================
 
-On this page you can find the contract addresses for the `Binance Smart Chain`_, Polygon_,
+On this page you can find the contract addresses for the `BNB Chain`_, Polygon_,
 Fantom_, and the `Avalanche (C-Chain)`_ chains. These contract addresses should be passed to the ``setupVRF``
 function depending on which chain your contract is deployed to.
 
 .. admonition:: Currently in beta test
 
-   This service is currently in beta test and active only on the Binance Smart Chain (BSC),
+   This service is currently in beta test and active only on the BNB Chain (BSC),
    Fantom (FTM) and Polygon (MATIC) testnets and mainnets. If you have any issues or questions
    you can joun our `Telegram chat`_ or send us an email at support@kenshi.io.
 
 .. _`Telegram chat`: https://t.me/kenshi_developers
 
-Binance Smart Chain
+BNB Chain
 -------------------
 
 BSC Mainnet

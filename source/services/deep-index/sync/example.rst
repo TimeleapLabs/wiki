@@ -15,8 +15,8 @@ blockchain data clusters:
      - Value
      - Description
    * - Chain
-     - Binance Smart Chain
-     - Kenshi smart contract is deployed to the Binance Smart Chain.
+     - BNB Chain
+     - Kenshi smart contract is deployed to the BNB Chain.
    * - Starting block
      - 17633890
      - Kenshi smart contract is deployed at block number 17633890.

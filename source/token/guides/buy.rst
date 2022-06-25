@@ -20,7 +20,7 @@ If you don’t already have one, metamask_ is recommended for desktop, they have
 3. Buy some BUSD
 ----------------
 
-To purchase Kenshi you need to swap it with BUSD or any other token built on top of the binance smart chain
+To purchase Kenshi you need to swap it with BUSD or any other token built on top of the BNB Chain
 
 To buy BUSD, visit Binance_ or Moonpay_
 
