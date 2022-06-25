@@ -73,9 +73,9 @@ Available blockchains are:
 
    * - Blockchain
      - GraphQL value
-   * - Binance Smart Chain
+   * - BNB Chain
      - ``binance-mainnet``
-   * - Binance Smart Chain testnet
+   * - BNB Chain testnet
      - ``binance-testnet``
    * - Polygon
      - ``polygon-mainnet``

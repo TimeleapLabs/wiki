@@ -1,15 +1,14 @@
 {
   "series": [
     95,
-    2,
-    2,
-    1
+    2.5,
+    2.5
   ],
   "chart": {
     "type": "donut",
     "height": 320
   },
-  "labels": ["Transfered", "Reflected", "Treasury", "Burned"],
+  "labels": ["Transfered", "Reflected", "Treasury"],
   "responsive": [
     {
       "breakpoint": 480,

@@ -15,7 +15,7 @@ have a bigger liquidity in the pool over time, which in turn helps us
 stabilize and control the price.
 
 This feature is implented off-chain because we couldn't find any currently
-existing DEX on the Binance Smart Chain offering a similar service. We will
+existing DEX on the BNB Chain offering a similar service. We will
 have this feature on our own DEX once we launch the Kenshi DEX project.
 
 How does it work?

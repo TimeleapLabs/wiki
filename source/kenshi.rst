@@ -2,7 +2,7 @@ What is Kenshi?
 ===============
 
 Kenshi is a tech company interested in the blockchain technology and
-distributed systems, as well as a token on the binance smart chain.
+distributed systems, as well as a token on the BNB Chain.
 While the vast majority of tokens on the market rely merely on the
 market hype to derive their value, Kenshi does it by bringing actual
 projects into life.

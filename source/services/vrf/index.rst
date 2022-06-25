@@ -8,7 +8,7 @@ cryptocurrency games, or anywhere on the blockchain where a random number is nee
 
 .. admonition:: Currently in beta test
 
-   This service is currently in beta test and active on the Binance Smart Chain (BSC),
+   This service is currently in beta test and active on the BNB Chain (BSC),
    Avalanche (AVAX), Fantom (FTM) and Polygon (MATIC) testnets and mainnets. If you have any
    issues or questions you can joun our `Telegram chat`_ or send us an email at support@kenshi.io.
 

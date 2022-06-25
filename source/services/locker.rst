@@ -12,7 +12,7 @@ Kenshi lockers have a set of features that makes them stand out in the competiti
 
 - **One time flat fee**: pay one time and use forever, do whatever.
 - **Upgradable**: upgrade your locker to a new version for free any time we add new features.
-- **Lock any token**: lock any token on the Binance Smart Chain.
+- **Lock any token**: lock any token on the BNB Chain.
 - **Lock multiple tokens**: lock multiple tokens or lp tokens in the same locker.
 - **Transfer ownership**: transfer ownership to a new wallet if needed.
 
