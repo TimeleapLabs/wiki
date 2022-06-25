@@ -15,7 +15,8 @@ If you have any questions, ask them directly on our telegram group! Don’t be s
 ---------------
 
 If you don’t already have one, metamask_ is recommended for desktop, they have an extension for almost every web browser.
-`Be sure to keep your secret phrase in a secure place and offline!`
+`Be sure to keep your secret phrase in a secure place and offline!` Ideally use a hardware wallet, Metamask supports a
+range of these.
 
 3. Buy some BUSD
 ----------------

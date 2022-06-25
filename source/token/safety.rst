@@ -29,11 +29,12 @@ the ones listed on our website_, and on our documentation_ page.
 .. _documentation: ../community.html
 .. _website: https://kenshi.io
 
-Backup your seed phrase
+Security
 -----------------------
 
 Keep a backup of your seed phrase somewhere safe. Your tokens are not stored on your computer or
 in your wallet, they're stored on the blockchain. Your seed phrase, or private keys are needed to
 interact with the blockchain, and to prove you are the owner of these tokens. If in any case you
 lose access to your phone or computer you can use this seed phrase to recover your funds. Make sure
-you are the only one with access to your seed phrase.
+you are the only one with access to your seed phrase. Consider using a hardware wallet so that your
+signing key can be kept securely separate from your internet connected devices.
