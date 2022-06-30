@@ -54,12 +54,12 @@ receive reflections on top of that.
 How to create a locker?
 -----------------------
 
-To create a locker, go to the `/locker`_ page on our website, connect your wallet
+To create a locker, go to the `/lockers`_ page on our website, connect your wallet
 and click on the create button. Once the locker creation is done you will be
 redirected to the admin page. Be sure to copy the contract address of your newly
 created locker so you can manage it later.
 
-.. _`/locker`: https://kenshi.io/locker
+.. _`/lockers`: https://kenshi.io/lockers
 
 How to add tokens to the locker?
 --------------------------------
