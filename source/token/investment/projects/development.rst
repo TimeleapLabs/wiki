@@ -12,12 +12,12 @@ quality custom contracts to the clients:
 - Commented and documented code
 - Kenshi developed features such as: 
   
-  - anti-bot system
-  - anti-whale system
-  - sales fine
-  - treasury
-  - reflections
-  - and more!
+  - Anti-bot system
+  - Anti-whale system
+  - Sales fines
+  - Treasury
+  - Reflections
+  - And more!
 
 .. admonition:: Schedule
   

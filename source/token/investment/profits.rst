@@ -25,7 +25,7 @@ such as:
 - The costs of running and maintaining the project
 - The amount of tokens currently held in the treasury
 
-Tokens, or money, taken out of treasury amounts to the shares of the holder's in
+Tokens, or money, taken out of treasury amounts to the shares of the holders in
 each specific project. The amount of capital provided by Kenshi, represents the
 amount of shares Kenshi has in each project.
 
