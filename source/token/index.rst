@@ -10,15 +10,17 @@ The Kenshi token
 TL;DR
 -----
 
-If the documentation is too long for you to read, here is a short summary:
+The documentation covers some important aspects of the token:
 
-1. There is a 5% community tax on buying
-2. You promise you won't sell or transfer your tokens for 28 days, or you will be fined
-3. You get reflections
+1. There is a 5% community tax on buying, selling, and transferring
+2. You understand that if you sell or transfer your tokens within 28 days of purchase, you will be fined per `variable tax`_
+3. You receive reflections
 
-Check the topics below if you want to learn more.
+.. _`variable tax`: ./token/features/variable-tax.html
 
 .. note:: There is no tax or fine for buying the Kenshi services.
+
+Check the topics below to find out more.
 
 .. toctree::
    :maxdepth: 1

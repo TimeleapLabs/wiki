@@ -1,4 +1,4 @@
-How To Buy
+How to Buy
 ==========
 
 1. Read our documentation
@@ -7,14 +7,14 @@ How To Buy
 We’re recommending anyone interested in Kenshi spend some time going through our documentation.
 
 Kenshi isn’t a token made for day trading, it’s a token that we advise to hold at least for a month
-To avoid any surprise, make sure you understand the doc before going to the next step.
+To avoid any surprises, make sure you understand the docs before going to the next step.
 
-If you have any questions, ask them directly on our telegram group! Don’t be shy, we’re friendly
+If you have any questions, ask them directly on our Telegram group! Don’t be shy, we’re friendly!
 
 2. Get a wallet
 ---------------
 
-If you don’t already have one, metamask_ is recommended for desktop, they have an extension for almost every web browser.
+If you don’t already have one, Metamask_ is recommended for desktop, they have an extension for almost every web browser.
 `Be sure to keep your secret phrase in a secure place and offline!` Ideally use a hardware wallet, Metamask supports a
 range of these.
 
@@ -30,9 +30,12 @@ To buy BUSD, visit Binance_ or Moonpay_
 
 You’re finally ready to purchase some Kenshi!
 
-Go to PancakeSwap_, connect your wallet, set slippage to 5.5% and get yourself some Kenshi!
+Go to PancakeSwap_, connect your wallet, set slippage to 5.3% and get yourself some Kenshi!
+
+Alternatively, use the `Kenshi Swap`_
 
 .. _Binance: https://www.binance.com
-.. _metamask: https://metamask.io/
+.. _`Kenshi Swap`: https://kenshi.io/swap
+.. _Metamask: https://metamask.io/
 .. _Moonpay: https://www.moonpay.com/
 .. _PancakeSwap: https://pancakeswap.finance/swap?outputCurrency=0x42f9c5a27a2647a64f7D3d58d8f896C60a727b0f

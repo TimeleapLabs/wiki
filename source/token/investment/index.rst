@@ -1,9 +1,9 @@
 Investment Token
 ================
 
-As an investment token, Kenshi provides a passive income to all its holders.
-Simply holding Kenshi in your wallet is enough to get this passive income.
-The more tokens you hold the more shares you'll receive.
+As an investment token, Kenshi provides passive income to its holders.
+Simply holding Kenshi in your wallet is enough to receive this passive income.
+The more tokens you hold the more you'll receive.
 
 There are multiple sources for this income:
 

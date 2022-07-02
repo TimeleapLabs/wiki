@@ -1,13 +1,15 @@
 Variable Tax
 ============
 
-Since Kenshi is an investment token, holders promise to hold onto their
-tokens for at least 30 days, otherwise they will face a fine. This fine
-is added to the `5% base tax`_ to make up the variable tax rates.
-The fine is calculated logarithmically with the amount decreasing as
-we move further away from the date of purchase.
+Since Kenshi is an investment token, holders will face a fine if they do not hold
+onto their tokens for at least 28 days. This fine is added to the `5% base tax`_.
+The fine is calculated logarithmically with the amount decreasing as days progress
+further away from the date(s) of purchase.
+
+Holders can see what their current and future sell tax is on the Kenshi `tools`_ page.
 
 .. _`5% base tax`: ../tokenomics.html#tax
+.. _tools: https://kenshi.io/tools
 
 .. warning::
 
