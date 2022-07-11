@@ -11,7 +11,7 @@ Node.js
   .. note:: This example requires the express npm package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/reverse-api-example-node>`__.
+    This example is also available on `GitHub <https://github.com/KenshiTech/reverse-api-example-node>`__.
 
   .. code-block:: javascript
 
@@ -59,7 +59,7 @@ Python
   .. note:: This example requires the flask Python package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/reverse-api-example-python>`__.
+    This example is also available on `GitHub <https://github.com/KenshiTech/reverse-api-example-python>`__.
 
   .. code-block:: python
 

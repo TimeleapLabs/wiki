@@ -17,7 +17,7 @@ you can find the contract address on the next section.
 
 .. seealso::
 
-    This example is also available on `GitHub <https://github.com/kenshi-token/d20>`_.
+    This example is also available on `GitHub <https://github.com/KenshiTech/d20>`_.
 
 D20 Smart Contract
 ------------------

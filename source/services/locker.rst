@@ -105,7 +105,7 @@ Programmatic access
 
 Check our `GitHub repository`_ for the relevant interfaces and documentation.
 
-.. _`GitHub repository`: https://github.com/kenshi-token/locker-interface
+.. _`GitHub repository`: https://github.com/KenshiTech/locker-interface
 
 I lost my locker address!
 -------------------------

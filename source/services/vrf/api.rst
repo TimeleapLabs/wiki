@@ -8,7 +8,7 @@ To request a verifiable random number, your smart contract should inherit from t
 library. To see an example of doing that refer to our `D20 example`_. The VRF Consumer
 provides the following functions:
 
-.. _`D20 example`: https://github.com/kenshi-token/d20
+.. _`D20 example`: https://github.com/KenshiTech/d20
 
 - **setupVRF**: This function is overloaded and accepts either one or three arguments:
   The VRF coordinator address, a boolean value indicating if the received VRF results
@@ -41,7 +41,7 @@ provides the following functions:
 
 For function signatures check the `VRF consumer repositorty`_.
 
-.. _`VRF consumer repositorty`: https://github.com/kenshi-token/vrf-consumer
+.. _`VRF consumer repositorty`: https://github.com/KenshiTech/vrf-consumer
 
 VRF Utils
 ---------
@@ -54,5 +54,5 @@ generate randomness on chain. It is also used to verify the VRF results on chain
 Refer to the `VRFUtils.sol file`_ on Github to check the available functions. Read the `ECVRF draft`_ to
 learn more about each function.
 
-.. _`VRFUtils.sol file`: https://github.com/kenshi-token/vrf-consumer/blob/master/contracts/VRFUtils.sol
+.. _`VRFUtils.sol file`: https://github.com/KenshiTech/vrf-consumer/blob/master/contracts/VRFUtils.sol
 .. _`ECVRF draft`: https://datatracker.ietf.org/doc/html/draft-irtf-cfrg-vrf-10.html

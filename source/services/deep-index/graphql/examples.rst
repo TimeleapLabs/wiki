@@ -11,7 +11,7 @@ Node.js
   .. note:: This example requires Node.js v14.8+ and the axios npm package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-node-axios>`__
+    This example is also available on `GitHub <https://github.com/KenshiTech/graphql-example-node-axios>`__
 
   .. code-block:: javascript
 
@@ -48,7 +48,7 @@ Node.js
   .. note:: This example requires Node.js v14.8+ and the node-fetch npm package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-node-fetch>`__
+    This example is also available on `GitHub <https://github.com/KenshiTech/graphql-example-node-fetch>`__
 
   .. code-block:: javascript
 
@@ -95,7 +95,7 @@ Python
   .. note:: This example requires the requests Python package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-python>`__
+    This example is also available on `GitHub <https://github.com/KenshiTech/graphql-example-python>`__
 
   .. code-block:: python
 
@@ -129,7 +129,7 @@ Go
   .. note:: This example requires the shurcool/graphql package installed.
 
   .. seealso::
-    This example is also available on `GitHub <https://github.com/kenshi-token/graphql-example-go>`__
+    This example is also available on `GitHub <https://github.com/KenshiTech/graphql-example-go>`__
 
   .. code-block:: go
 

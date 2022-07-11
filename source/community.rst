@@ -17,13 +17,13 @@ These are the official Kenshi community links:
   the ones listed above. Be extra cautious when joining other unofficial
   communities. Always remember this: we will never contact you first.
 
-.. _Telegram: https://t.me/kenshi_token
-.. _Twitter: https://twitter.com/kenshi_token
-.. _Reddit: https://www.reddit.com/r/kenshi_token
+.. _Telegram: https://t.me/KenshiTech
+.. _Twitter: https://twitter.com/KenshiTech
+.. _Reddit: https://www.reddit.com/r/KenshiTech
 .. _Medium: https://blog.kenshi.io
-.. _GitHub: https://github.com/kenshi-token
+.. _GitHub: https://github.com/KenshiTech
 .. _`Telegram (for developers)`: https://t.me/kenshi_developers
-.. _Discord: https://discord.gg/YNXMYF6d
+.. _Discord: https://discord.gg/KenshiToken
 
 Contact Details
 ---------------

@@ -51,7 +51,7 @@ audit for your project.
 Sample Smart Contract
 ---------------------
 
-You can check out our GitHub repository `here <https://github.com/kenshi-token/contracts>`__
+You can check out our GitHub repository `here <https://github.com/KenshiTech/contracts>`__
 for the Kenshi token. We're proud of writing clean, well documented, well tested code!
 
 Interested in this service?
