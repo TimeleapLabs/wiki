@@ -22,7 +22,7 @@ These are the official Kenshi community links:
 .. _Reddit: https://www.reddit.com/r/KenshiTech
 .. _Medium: https://blog.kenshi.io
 .. _GitHub: https://github.com/KenshiTech
-.. _`Telegram (for developers)`: https://t.me/kenshi_developers
+.. _`Telegram (for developers)`: https://t.me/KenshiTechDevelopers
 .. _Discord: https://discord.gg/KenshiToken
 
 Contact Details

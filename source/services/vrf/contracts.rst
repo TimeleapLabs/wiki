@@ -14,7 +14,7 @@ function depending on which chain your contract is deployed to.
    Fantom (FTM) and Polygon (MATIC) testnets and mainnets. If you have any issues or questions
    you can joun our `Telegram chat`_ or send us an email at support@kenshi.io.
 
-.. _`Telegram chat`: https://t.me/kenshi_developers
+.. _`Telegram chat`: https://t.me/KenshiTechDevelopers
 
 BNB Chain
 -------------------

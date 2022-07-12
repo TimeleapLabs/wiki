@@ -12,7 +12,7 @@ cryptocurrency games, or anywhere on the blockchain where a random number is nee
    Avalanche (AVAX), Fantom (FTM) and Polygon (MATIC) testnets and mainnets. If you have any
    issues or questions you can joun our `Telegram chat`_ or send us an email at support@kenshi.io.
 
-.. _`Telegram chat`: https://t.me/kenshi_developers
+.. _`Telegram chat`: https://t.me/KenshiTechDevelopers
 
 Kenshi Verifiable Random Function oracles can generate and verify pseudorandom numbers
 to be used by smart contracts on-chain. These random numbers are safe, secure, and tamper-proof.

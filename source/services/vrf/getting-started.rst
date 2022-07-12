@@ -82,7 +82,7 @@ To use the Kenshi VRF oracle for requesting random numbers, follow the steps bel
 An example of doing this can be found here_.
 
 .. _here: ./example.html
-.. _`Telegram Chat`: https://t.me/kenshi_developers
+.. _`Telegram Chat`: https://t.me/KenshiTechDevelopers
 
 Using the randomness
 --------------------
