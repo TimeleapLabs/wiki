@@ -33,8 +33,8 @@ receive reflections on top of that.
      - Price (Pay in Kenshi)
      - Price (Lock Kenshi)
    * - Create a new locker
-     - 200,000,000
-     - Lock 400,000,000
+     - 100M
+     - Lock 200M
    * - Lock liquidity or other tokens
      - *Free*
      - *Free*
