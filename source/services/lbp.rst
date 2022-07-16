@@ -2,13 +2,13 @@ Liquidity Bootstrapping
 =======================
 
 The Kenshi Liquidity Bootstrapping Oracle helps kickstart token projects
-with a low liquidity at a fair launch price. This is the right tool if you
-want a controlled pricing for your token, or you don't want to offer your 
+with low liquidity at a fair launch price. This is the right tool if you
+want controlled pricing for your token, or you don't want to offer your 
 token at a very low price because you lack the needed capital.
 
-This oracle is also usable if you have a percentage of your tokens locked
+This oracle is also useful if you have a percentage of your tokens locked
 away, and you want to inject them into your liquidity pool at certain times
-or on certain events. This page has some useful information about the functionality
+or during certain events. This page has some useful information about the functionality
 of this oracle, you can also contact us if you have any unanswered questions.
 
 What's a Liquidity Bootstrapping Pool?
@@ -21,14 +21,14 @@ and the pricing is defined based on the following formula:
   X \times Y = Constant
 
 Where X and Y are the two tokens making up the pair. This formula works very
-well when a project has a decent size of capital to pair with their own newly
+well when a project has a decent size of capital to pair with its own newly
 made tokens. However, when a project lacks liquidity this formula results in
 a low initial token price, and possibly huge buys and whales at the start.
 
 As an example, if you pair 100% of the tokens your project creates with $1000
-worth of USDT, then anyone will be able to buy half of your entire supply for $500,
+the worth of USDT, then anyone will be able to buy half of your entire supply for $500,
 which isn't that much. So, what's the solution to that? One obvious solution is to
-put more capital into your liquidity pool, for example to pair your tokens with
+put more capital into your liquidity pool, for example, to pair your tokens with
 $100k instead of $1k.
 
 Another solution is to offer only a percentage of your tokens for the low capital
@@ -50,14 +50,14 @@ with the token of your choice, and lock away the rest either in the smart contra
 a special address.
 
 The Kenshi Liquidity Bootstrapping Bot listens to all ``Transfer`` events on your
-smart contract, detecting when someone is making a purchase from your liquidity
-pool. The bot then checks the amount of tokens transfered from the pool to the outside,
+smart contract, detecting when someone is purchasing tokens from your liquidity pool.
+The bot then checks the number of tokens transferred from the pool to the user
 and restores it by taking the same amount of tokens from your locked tokens balance.
 
 Half of the tokens taken out of the locked balance are then sold to the liquidity pool
-to get an equivalent amount of the pairing token. This amount of pairing tokens are then
-paired with the remaining half of the tokens taken out of the locked balance and are put
-back into the pool, effectively keeping the amount of your tokens in the pool a constant.
+to get an equivalent amount of the pairing token. This amount of pairing tokens is then
+paired with the remaining half of the tokens taken out of the locked balance and put
+back into the pool, effectively keeping the number of your tokens in the pool a constant.
 
 This process continues until all of your locked tokens are injected into the pool. This
 way you're offering your tokens at a higher initial price and liquidity builds up in
@@ -66,5 +66,5 @@ customers when they buy your tokens.
 
 This indirect tax is very small and so is the price impact of the trades made by the bot.
 The tax and the price impact get smaller and smaller as more tokens are injected into the
-liquidity pool, until there is no more tokens left in the locked balance, in which case
-the pool returns back to a standard AMM formula.
+liquidity pool until there are no more tokens left in the locked balance, in which case
+the pool returns to a standard AMM formula.

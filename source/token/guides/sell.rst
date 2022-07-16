@@ -1,16 +1,18 @@
 How to Sell
 ===========
 
-Since Kenshi is an investment token, holders promise to hold onto their
-tokens for at least 30 days, otherwise, they will face a fine. This fine
-is added to the `5% base tax`_ to make up the variable tax rates.
-The fine is calculated logarithmically with the amount decreasing as
-we move further away from the date of purchase.
+Auto-staking is in place for all Kenshi holders, with holders promising to hold their 
+tokens for a minimum of 28 days. In case a holder decides to withdraw their tokens
+before the 28 days, they will face an early withdrawal fine.
+
+This fine is added to the `5% base tax`_ to make up for the variable tax rates.
+The fine is calculated logarithmically with the amount decreasing as we move further
+away from the date of purchase.
 
 How to sell during the first 30 days?
 -------------------------------------
 
-Due to our variable sell tax, you won't be able to sell your token on pancakeswap for at least three or four days.
+Due to our variable sell tax, you won't be able to sell your token on PancakeSwap for at least three or four days.
 If you still want to sell your tokens, use a DEX that allows slippage higher than 49% such as poocoin_
 
 .. warning::

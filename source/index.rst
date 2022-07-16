@@ -1,8 +1,14 @@
-Kenshi Wiki
+Kenshi Docs
 ===========
 
-Kenshi is a profit sharing token with reflections.
-Kenshi shares the profits of its projects with the holders.
+Kenshi is a Swiss-based blockchain company offering services such as VRF_ oracle,
+`Deep Indexing`_, GraphQL_, and `Reverse-API`_ (webhooks) on Avalanche, Fantom,
+Polygon and the BNB Smart Chain.
+
+.. _VRF: ./services/vrf/index.html
+.. _`Deep Indexing`: ./services/deep-index/index.html
+.. _GraphQL: ./services/deep-index/graphql/index.html
+.. _`Reverse-API`: ./services/deep-index/webhook/index.html
 
 .. warning::
    Buying the token? Make sure to read the `token documentation`_ first.

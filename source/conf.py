@@ -90,9 +90,9 @@ html_js_files = [
 ]
 
 
-html_favicon = '_static/images/favicon.png'
+html_favicon = '_static/images/favicon.svg'
 html_logo = '_static/images/logo-512x512.png'
-html_title = 'Kenshi Wiki'
+html_title = 'Kenshi Docs'
 
 pygments_style = "tokyo_night.TokyoNightLightStyle"
 pygments_dark_style = "tokyo_night.TokyoNightStyle"

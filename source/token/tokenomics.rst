@@ -9,6 +9,8 @@ added little by little to the DEX on each purchase from the DEX, check out the
 `Liquidity Bootstrapping`_ page for more info about that.
 There are no team or developer wallets or any other form of special allocation.
 
+.. note:: The liquidity bootstrapping phase is over.
+
 Total Supply
 ------------
 
@@ -26,7 +28,6 @@ If the tax amount exceeds 5% (due to an early sale fine), the remaining tax is d
 Treasury
 --------
 
-Tokens held in treasury will be invested on Kenshi projects, returning part of
-their profits to the holders.
+Tokens held in the Kenshi treasury are used for the growth of the Kenshi ecosystem.
 
 .. _`Liquidity Bootstrapping`: features/liquidity-bootstrapping.html

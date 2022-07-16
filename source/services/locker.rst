@@ -10,7 +10,7 @@ Features
 
 Kenshi lockers have a set of features that makes them stand out in the competition:
 
-- **One time flat fee**: pay one time and use forever, do whatever.
+- **One-time flat fee**: pay one time and use forever, do whatever.
 - **Upgradable**: upgrade your locker to a new version for free any time we add new features.
 - **Lock any token**: lock any token on the BNB Chain.
 - **Lock multiple tokens**: lock multiple tokens or lp tokens in the same locker.
@@ -19,7 +19,7 @@ Kenshi lockers have a set of features that makes them stand out in the competiti
 Pricing
 -------
 
-Kenshi lockers have a one time flat fee and all future interactions with them
+Kenshi lockers have a one-time flat fee and all future interactions with them
 are free. You can either pay or lock a specific amount of Kenshi tokens
 for at least a year and get the locker for free. Please note that you won't pay
 any Kenshi transaction tax if you choose to pay by locking Kenshi, and you will
@@ -71,12 +71,12 @@ your choice.
 .. danger::
 
   When sending tokens to the contract address, make sure you're on the correct
-  network. Otherwise your tokens will be lost forever.
+  network. Otherwise, your tokens will be lost forever.
 
 How to withdraw tokens from the locker?
 ---------------------------------------
 
-Go on the admin page of your locker, connect with your wallet, enter the address of
+Go on the admin page of your locker, connect with your wallet, and enter the address of
 the token you want to remove in the **Lock / Withdraw** section, click on the **Withdraw**
 button.
 
@@ -97,7 +97,7 @@ publicly available on the locker.
   
   Admin actions such as locking, withdrawing and setting the dates are only available
   and displayed to the locker owner. Locker onwer is anyone who created the locker.
-  Please not that the ownership of the locker is not transferrable.
+  Please note that the ownership of the locker is not transferrable.
 
 
 Programmatic access

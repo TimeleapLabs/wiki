@@ -34,7 +34,7 @@ Website
 .. _FontAwesome: https://fontawesome.com
 .. _ESLint: https://eslint.org
 
-Wiki
+Docs
 ----
 
 - Sphinx_ documentation generator
