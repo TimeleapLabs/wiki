@@ -67,12 +67,3 @@ tokens go lower. That's how the market works, it's a balance between supply and 
   than the ones used above.
 
 .. _PancakeSwap: https://pancakeswap.finance
-
-Improving the Price
--------------------
-
-There are several ways to improve the price of Kenshi tokens, one obvious method is to
-buy and hold, and invite others to do so. By sharing Kenshi projects on social media and
-inviting others to the project you can improve the price of Kenshi tokens. Furthermore, this
-will bring more profits to the system, making us able to buy back more Kenshi tokens to
-be distributed to the holders.

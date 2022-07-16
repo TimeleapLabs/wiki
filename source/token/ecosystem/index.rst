@@ -9,7 +9,7 @@ for the token.
 There are multiple sources for the said reward:
 
 1. **Reflections:** A percentage of each transfer is automatically distributed back to the holders.
-2. **Ecosystem Rewards:** Kenshi buybacks and delivers tokens to the holders.
+2. **Ecosystem Rewards:** Kenshi rewards the holders or projects building on the Kenshi ecosystem.
 
 You do not need to do anything specific to claim these rewards, they're active
 for all holders and are deposited to your wallets automatically.

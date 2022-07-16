@@ -11,13 +11,12 @@ Kenshi as a Tech Company
 ------------------------
 
 On the tech side, Kenshi engineers and implements multiple projects,
-mainly blockchain related such as deep indexing and oracles. Kenshi
-markets these projects and shares a portion of the profits back to the
-holders of the Kenshi token. This brings value to the community, pushing
-the price of the token up.
+mainly blockchain related such as deep indexing and oracles. These projects
+bring value to the ecosystem and boost the economy of Kenshi.
 
 Kenshi as a Token
 -----------------
 
 The Kenshi ERC1363 token empowers the Kenshi EVM ecosystem. A percentage
-of each transaction is dedicated to the growth of this ecosystem.
+of each transaction is dedicated to the growth of this ecosystem. This token
+is primarily used to pay for the Kenshi ecosystem services.
