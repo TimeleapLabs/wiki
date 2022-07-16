@@ -3,8 +3,8 @@ Kenshi Ecosystem
 
 Kenshi ecosystem consists of all Kenshi tokens and products deployed to any of the
 supported EVM blockchains. A percentage of each transaction is dedicated to the growth
-of this ecosystem. Kenshi occasionally rewards the holders for keeping a floor price
-for the token.
+of this ecosystem. Kenshi occasionally rewards the holders and builders targeting the
+Kenshi ecosystem.
 
 There are multiple sources for the said reward:
 
