@@ -47,18 +47,19 @@ You can use the following list as a guide for each of the fields in this form.
    be changed later.
 
 10. **Step**: How many blocks at a time should this task process at each run? This needs to be adjusted
-   depending on the **Interval**, for example, the block time on the Fantom chain is about 1 second, so
-   in 10 seconds there will be 10 new blocks. That means if your task is running every 10 seconds and
-   processing 6 blocks at a time it won't be able to catch up to the new data fast enough. This value
-   cannot be changed after the task is created.
+    depending on the **Interval**, for example, the block time on the Fantom chain is about 1 second, so
+    in 10 seconds there will be 10 new blocks. That means if your task is running every 10 seconds and
+    processing 6 blocks at a time it won't be able to catch up to the new data fast enough. This value
+    cannot be changed after the task is created.
 
 11. **Query**: Define a query for this Reverse-API. Here you need to add contract addresses, event signatures,
-   event names or any other required info for querying the events from the Kenshi blockchain data clusters.
-   The Kenshi event Dispatcher uses this query against the data cluster on each run, then sends every matched
-   record to your Reverse-API endpoint in a separate request.
+    event names or any other required info for querying the events from the Kenshi blockchain data clusters.
+    The Kenshi event Dispatcher uses this query against the data cluster on each run, then sends every matched
+    record to your Reverse-API endpoint in a separate request.
 
 .. note::
-   Hex values should not be checksummed. All values for the query should be in lowercase.
+   If you're filtering based on an event argument with an ``address`` type, you need to provide a checksummed
+   address. For other argument types, the hex values must be all lower.
 
 .. note::
   The Kenshi event dispatcher for Reverse-API caches all events in a ``memcached`` instance to

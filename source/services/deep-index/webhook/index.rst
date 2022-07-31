@@ -14,3 +14,4 @@ our dispatcher notify your HTTP endpoint with the data you requested.
    examples
    schema
    pricing
+   changes
