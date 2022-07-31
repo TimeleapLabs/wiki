@@ -30,4 +30,5 @@ Polygon and the BNB Smart Chain.
    community
    team
    tech
+   roadmap/index
    puzzles/index
