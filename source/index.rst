@@ -23,12 +23,11 @@ Polygon and the BNB Smart Chain.
    self
    kenshi
    services/index
+   roadmap/index
    token/index
-   milestone
    faq
    media
    community
    team
    tech
-   roadmap/index
    puzzles/index

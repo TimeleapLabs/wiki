@@ -108,6 +108,11 @@ information about the token was made available to all developers and users.
 Public Relations
 ----------------
 
+Listings
+~~~~~~~~
+
+Listed on CoinMarketCap and CoinGecko.
+
 Social Media
 ~~~~~~~~~~~~
 
