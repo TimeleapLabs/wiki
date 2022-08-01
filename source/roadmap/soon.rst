@@ -21,10 +21,10 @@ Multiple updates are in the pipeline for the Kenshi Deep Indexing Reverse-API se
 External Projects
 -----------------
 
-NFT Projects
-~~~~~~~~~~~~
+Partner Projects
+~~~~~~~~~~~~~~~~
 
-Two NFT projects are in progress. Kenshi develops the blockchain side of two NFT dApp projects
+Two partner projects are in progress. Kenshi develops the blockchain side of two dApp projects
 that integrate the Kenshi products and services. More information on the said projects will be
 disclosed closer once our partners are ready for an announcement.
 
