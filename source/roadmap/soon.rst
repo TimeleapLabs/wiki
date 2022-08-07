@@ -45,14 +45,14 @@ Developers building promising projects using the Kenshi products will be able to
 Kenshi Grants. In phase one of the Kenshi Grants, developers will get free access to the Kenshi
 services for building their products.
  
-Content marketing
+Content Marketing
 ~~~~~~~~~~~~~~~~~~
 
 Case study articles showcasing how our partners are using the Kenshi products are in the making.
 We are also working on making more tutorial articles on how to integrate the Kenshi services into
 blockchain projects.
 
-More blockchains
+More Blockchains
 ~~~~~~~~~~~~~~~~
 
 Kenshi is working to make connections and partnerships with EVM-compatible blockchains. Kenshi
@@ -62,7 +62,7 @@ is made.
 Company
 -------
 
-Scale and growth
+Scale and Growth
 ~~~~~~~~~~~~~~~~
 
 Kenshi is actively seeking investors to grow its ecosystem of products, services and connections.

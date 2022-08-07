@@ -37,7 +37,7 @@ kept a secret until the launch date.
 Token
 -----
 
-Liquidity on other chains
+Liquidity on Other Chains
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Kenshi will provide official liquidity pools on the biggest DEX available on each
