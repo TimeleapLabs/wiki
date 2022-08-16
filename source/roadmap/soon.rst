@@ -18,6 +18,11 @@ Upgrades to the Reverse-API
 
 Multiple updates are in the pipeline for the Kenshi Deep Indexing Reverse-API service.
 
+Kenshi Vault
+~~~~~~~~~~~~
+
+The next generation of Kenshi lockers with extra features.
+
 External Projects
 -----------------
 
