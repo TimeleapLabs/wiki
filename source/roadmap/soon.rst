@@ -8,6 +8,13 @@ Coming soon
 Services
 --------
 
+Ethereum Launch
+~~~~~~~~~~~~~~~
+
+Kenshi VRF oracle and Deep Indexing services are coming to Ethereum! These services
+will be launched on the Görli testnet first. Once the private beta testing on Görli is
+over, the services will be launched on the Ethereum mainnet.
+
 VRF Dedicated
 ~~~~~~~~~~~~~
 
