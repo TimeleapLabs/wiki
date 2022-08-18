@@ -89,3 +89,5 @@ Available blockchains are:
      - ``avalanche-mainnet``
    * - Avalanche Fuji
      - ``avalanche-fuji``
+   * - Ethereum Goerli
+     - ``ethereum-goerli``

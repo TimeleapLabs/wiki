@@ -5,8 +5,8 @@ Contracts Addresses
 ===================
 
 On this page you can find the contract addresses for the `BNB Chain`_, Polygon_,
-Fantom_, and the `Avalanche (C-Chain)`_ chains. These contract addresses should be passed to the ``setupVRF``
-function depending on which chain your contract is deployed to.
+Fantom_, `Avalanche (C-Chain)`_, and the Ethereum_ (Goerli) chains. These contract addresses
+should be passed to the ``setupVRF`` function depending on which chain your contract is deployed to.
 
 .. admonition:: Currently in beta test
 
@@ -147,3 +147,22 @@ Fuji Testnet
      - :hex:`0x039976F40a15Bbaaf055144d59F0a47341AF2dcb`
    * - D20 Example
      - :hex:`0x9877690753444fa090C107bF83ea48F7EdAD7937`
+
+Ethereum
+--------
+
+Goerli Testnet
+~~~~~~~~~~~~~~
+
+.. list-table::
+   :header-rows: 1
+   :widths: 20 60
+
+   * - Contract
+     - Address
+   * - Coordinator
+     - :hex:`0x8AdA51404F297bF2603912d1606340223c0a7784`
+   * - VRF Utils
+     - :hex:`0x164caf66c45e483F7eE647CcaD275B35B4C75719`
+   * - D20 Example
+     - :hex:`0x68EB019C53D8FE3Ffe60784617377649Cd9380C9`

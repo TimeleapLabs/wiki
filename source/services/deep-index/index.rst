@@ -4,8 +4,9 @@ Deep Index
 .. admonition:: Currently in beta test
 
    This service is currently in beta test and active on the BNB Smart Chain (BSC),
-   Fantom (FTM), Polygon (MATIC) and Avalanche (AVAX) testnets and mainnets. If you need any
-   help don't hesitate to join our communities_ or send us an email at `support@kenshi.io`_.
+   Fantom (FTM), Polygon (MATIC) and Avalanche (AVAX) testnets and mainnets, and the Ethereum
+   Goerli testnet. If you need any help don't hesitate to join our communities_ or send us an
+   email at `support@kenshi.io`_.
 
 The Kenshi Deep Index service consists of multiple services for retrieving, querying
 and processing blockchain data:
