@@ -25,8 +25,7 @@ Check the topics below if you want to learn more.
    :caption: Table of Contents
 
    ecosystem/index
-   tokenomics
+   utility
    features/index
-   disclaimer
    guides/index
    safety

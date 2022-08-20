@@ -1,7 +1,7 @@
 Ecosystem Rewards
 =================
 
-A percentage of every transaction, in form of tax, goes to the Kenshi treasury.
+A percentage of every transaction goes to the Kenshi treasury.
 The tokens accumulated in the treasury are used in a variety of ways to promote and
 grow the Kenshi ecosystem. This includes scale and growth of the Kenshi products,
 as well as helping builders adopt the Kenshi tech.

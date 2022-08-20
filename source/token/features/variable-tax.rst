@@ -1,36 +1,17 @@
 Variable Tax
 ============
 
-Auto-staking is in place for all Kenshi holders, with holders promising to hold their 
-tokens for a minimum of 28 days. In case a holder decides to withdraw their tokens
-before the 28 days, they will face an early withdrawal fine.
-
-This fine is added to the `5% base tax`_ to make up for the variable tax rates.
-The fine is calculated logarithmically with the amount decreasing as we move further
-away from the date of purchase.
-
-.. _`5% base tax`: ../tokenomics.html#tax
+Auto-staking is in place for all Kenshi holders, with a fine for those who
+sell before 28 days are passed from the date of purchase. This fine is added to the 5%
+base tax to make up for the variable tax rates. The fine is calculated logarithmically
+with the amount decreasing as we move further away from the date of purchase.
 
 .. warning::
 
-  This is a token to hold. Due to the initial sell tax, you won't be able to
-  sell your tokens for at least three or four days. Please make sure you understand
-  how this tax works before you make your purchase.
-
-Why is this good?
------------------
-
-In an automated market maker (AMM), every purchase increases the price of the
-token, and every sale decreases its price. This makes tokens vulnerable to market
-manipulations. For example, groups of people can buy the token at a low price,
-creating a hype to pump the price, then sell all their tokens at that high price
-for profit, thus crashing the market for all the other holders.
-This is called a pump and dump scheme.
-
-The variable tax system helps prevent these scenarios of market manipulation
-from happening, ensuring the savings of the holders stay safe. In addition to that,
-it protects our liquidity pool and holders from flash loan attacks, sandwich attacks,
-and other similar malicious activities.
+  Kenshi is a utility token. The purpose of the token is to enable users to unlock
+  the Kenshi services on the blockchain. The tax rules do not apply in cases where the
+  token is used for the intended use case (eg. to access one of the various Kenshi
+  services) and are in place to discourage any other use case.
 
 How much is the fine?
 ---------------------

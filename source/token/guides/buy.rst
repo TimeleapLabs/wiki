@@ -4,17 +4,16 @@ How To Buy
 1. Read our documentation
 -------------------------
 
-We’re recommending anyone interested in Kenshi spend some time going through our documentation.
+We're recommending anyone interested in Kenshi spend some time going through our documentation.
+Kenshi is a utility token that is used to unlock access to Kenshi's various services on the
+blockchain. Any other use case for the token is strictly prohibited.
 
-Kenshi isn’t a token made for day trading, it’s a token that we advise to hold at least for a month
-To avoid any surprise, make sure you understand the doc before going to the next step.
-
-If you have any questions, ask them directly on our telegram group! Don’t be shy, we’re friendly
+If you have any questions, ask them directly on our telegram group! Don't be shy, we're friendly
 
 2. Get a wallet
 ---------------
 
-If you don’t already have one, metamask_ is recommended for desktop, they have an extension for almost every web browser.
+If you don't already have one, metamask_ is recommended for desktop, they have an extension for almost every web browser.
 `Be sure to keep your secret phrase in a secure place and offline!` Ideally use a hardware wallet, Metamask supports a
 range of these.
 
@@ -28,7 +27,7 @@ To buy BUSD, visit Binance_ or Moonpay_
 4. Go to PancakeSwap and get some Kenshi!
 -----------------------------------------
 
-You’re finally ready to purchase some Kenshi!
+You're finally ready to purchase some Kenshi!
 
 Go to PancakeSwap_, connect your wallet, set slippage to 5.5% and get yourself some Kenshi!
 

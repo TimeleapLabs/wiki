@@ -9,4 +9,3 @@ This section provides various guides on Kenshi and the Kenshi ecosystem.
    
    buy
    sell
-   price

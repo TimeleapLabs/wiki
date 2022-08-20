@@ -10,4 +10,3 @@ This section provides a summary of the Kenshi token features.
    reflections
    variable-tax
    max-balance
-   liquidity-bootstrapping
