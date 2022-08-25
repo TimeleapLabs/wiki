@@ -1,18 +1,19 @@
 Getting Started
 ===============
 
-To work with the GraphQL endpoint, you need to use a GraphQL library,
-or directly make an HTTP POST request to the Kenshi Deep Index endpoint
-for GraphQL. The endpoint address and examples for making GraphQL requests
-can be found on the next chapters.
+To work with the MQL endpoint, you need to serialize your MQL query together
+with your API key, API key owner and the desired blockchain in a JSON package.
+Then you can make an HTTP POST request to the Kenshi Deep Index endpoint
+for MQL. The endpoint address and examples for making MQL requests
+can be found in the next chapters.
 
 The schema for returned data types, as well as the schema for making requests
-to the GraphQL endpoint are also provided. The provided schema can be used in
+to the MQL endpoint, are also provided. The provided schema can be used in
 languages such as Go where an interface is required for unpacking the received
-GraphQL data.
+MQL data.
 
-To create an API key for querying the GraphQL endpoint, you can head over to
-the Kenshi dashboard_, connect your wallet, fill out and submit the
+To create an API key for querying the MQL endpoint, you can head over to
+the Kenshi dashboard_, connect your wallet, fill and submit the
 "New GraphQL + MQL API Key" form.
 
 .. figure:: ../../../_static/images/dashboard/graphql_mql.png
@@ -21,15 +22,16 @@ the Kenshi dashboard_, connect your wallet, fill out and submit the
 
 .. _dashboard: https://kenshi.io/dashboard
 
-How to fill the form?
----------------------
+How to fill out the form?
+-------------------------
 
-To fill and submit the new GraphQL API key form you can refer to the following manual:
+To fill and submit the new MQL API key form you can refer to the following manual:
 
 1. **API Key**: You can use the auto-generated API key, and auto-generate a new one by pressing
    the small "refresh" button on the field, or by generating and providing your own. The API
-   keys are scoped, they're only valid if combined with the address of their owner, in other
-   words you'll need to provide your public address as well as this API key for making requests.
+   keys are scoped, they're only valid if combined with the address of their owner. In other
+   words, you'll need to provide your public address as well as this API key for making any
+   requests to the MQL endpoint.
 
 2. **Requests**: The number of requests you're expecting to have. This amount does not expire
    by the passing of time, but every successful or unsuccessful call counts as one usage and 
@@ -40,10 +42,11 @@ To fill and submit the new GraphQL API key form you can refer to the following m
    made using this API key that doesn't match the query limits. This field is optional.
 
 .. note::
-   Hex values should not be checksummed. All values for query limits should be in lowercase.
+   For Query limits, you should use checksummed hex values for argument values. Use lowercase
+   values anywhere else.
 
 Limits
 ------
 
-The GraphQL endpoint can return a maximum of 1024 records at a time. The maximum processing time for
+The MQL endpoint can return a maximum of 1024 records at a time. The maximum processing time for
 each request is 5 seconds, and the maximum size of returned data is 1MB.

@@ -21,6 +21,7 @@ and processing blockchain data:
    
    sync/index
    graphql/index
+   mql/index
    webhook/index
 
 .. _communities: ../../community.html
